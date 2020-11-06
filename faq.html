@@ -1,0 +1,1409 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'https://www.montanaboeredienste.co.za/',
+        AccountUUID: '6850ac2082cd460ea9f85369fb846cf9',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '2eec7337',
+        SiteId: '1775048',
+        SiteType: atob('RFVEQU9ORQ=='),
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        InitialPageAlias: 'dmPageNotFound',
+        InitialEncodedPageAlias: 'ZG1QYWdlTm90Rm91bmQ=',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: true,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '1370',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID : null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        LayoutParams : {
+            _navigationAnimationStyle: 'slide',
+            _manifestId : 10600,
+            _device : 'desktop'
+        },
+        StorePageAlias: 'shop',
+        StorePath: '/shop',
+        StoreId: '29457303',
+        StoreVersion: 2,
+        StoreBaseUrl: '/shop',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        NotificationSubDomain: 'montanaboeredienste',
+        HasCustomDomain: true,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        NavItems: 'W3sidGl0bGUiOiJIT01FIiwiYWxpYXMiOiJob21lIiwicGF0aCI6Ii8iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJTSE9QIiwiYWxpYXMiOiJzaG9wIiwicGF0aCI6Ii9zaG9wIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiQUJPVVQiLCJhbGlhcyI6ImFib3V0IiwicGF0aCI6Ii9hYm91dCIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6IkdBTExFUlkiLCJhbGlhcyI6InN0b3JpZXMiLCJwYXRoIjoiL3N0b3JpZXMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJDb250YWN0IFVzIiwiYWxpYXMiOiJzdG9yZXMiLCJwYXRoIjoiL3N0b3JlcyIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbeyJ0aXRsZSI6IkZJTkQgVVMiLCJhbGlhcyI6InN0b3JlcyNGSU5EVVMiLCJwYXRoIjoiL3N0b3JlcyNGSU5EVVMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119XX1d',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: -1,
+            NavbarLiveHomePage: 'https://www.montanaboeredienste.co.za/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: 7,
+        disableTracking: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function(global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function() {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=2';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function(registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    },
+                    function(err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function(err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function() {
+            var refreshing;
+            return function() {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function(resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="https://www.montanaboeredienste.co.za/dmPageNotFound">
+
+<meta id="view" name="viewport"
+      content=", initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"/>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/no-tractors-160702_1280.png"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp-cdn.multiscreensite.com/2eec7337/site_favicon_16_1589053143575.ico"/>
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://lirp-cdn.multiscreensite.com/" crossorigin />
+
+
+<!-- Prefetch Ecwid Javascript to speed up loading -->
+<link rel="prefetch" href="https://app.multiscreenstore.com/script.js?29457303"></link>
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+
+    function loadCSS(link) {
+        try {
+            var urlParams = new URLSearchParams(window.location.search);
+            var noCSS = !!urlParams.get('nocss');
+            var cssTimeout = urlParams.get('cssTimeout') || 0;
+
+            if (noCSS) {
+                return;
+            }
+            requestIdleCallback(function () {
+                window.setTimeout(function () {
+                    link.onload = null;
+                    link.rel = 'stylesheet';
+                    link.type = 'text/css'
+                }, parseInt(cssTimeout, 10));
+            });
+        } catch (e) {/* Never fail - this is just a tool for measurements */}
+    }
+
+</script>
+<script>
+(function(n){"use strict";if(!n.l){n.l=function(){}}var o=loadCSS.t={};o.o=function(){var l;try{l=n.document.createElement("link").relList.supports("preload")}catch(e){l=false}return function(){return l}}();o.i=function(e){var l=e.media||"all";function enableStylesheet(){if(e.addEventListener){e.removeEventListener("load",enableStylesheet)}else if(e.attachEvent){e.detachEvent("onload",enableStylesheet)}e.setAttribute("onload",null);e.media=l}if(e.addEventListener){e.addEventListener("load",enableStylesheet)}else if(e.attachEvent){e.attachEvent("onload",enableStylesheet)}setTimeout(function(){e.rel="stylesheet";e.media="only x"});setTimeout(enableStylesheet,3e3)};o.s=function(){if(o.o()){return}var e=n.document.getElementsByTagName("link");for(var l=0;l<e.length;l++){var t=e[l];if(t.rel==="preload"&&t.getAttribute("as")==="style"&&!t.getAttribute("data-loadcss")){t.setAttribute("data-loadcss",true);o.i(t)}}};if(!o.o()){o.s();var e=n.setInterval(o.s,500);if(n.addEventListener){n.addEventListener("load",function(){o.s();n.clearInterval(e)})}else if(n.attachEvent){n.attachEvent("onload",function(){o.s();n.clearInterval(e)})}}if(typeof exports!=="undefined"){exports.l=loadCSS}else{n.l=loadCSS}})(typeof global!=="undefined"?global:this);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CMontserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CPoppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CVidaloka:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CSource+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext&amp;display=swap"  />
+
+
+<link rel="stylesheet" type="text/css" href="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/css/css-font-package-v2.min.css" />
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css" />
+
+<!-- End of RT CSS Include -->
+
+
+
+    
+       <link type="text/css" rel="stylesheet" href="https://irp-cdn.multiscreensite.com/WIDGET_CSS/production_1476/2ab06238fadc111cb27d396950534ebd.css" id="widgetCSS" />
+    
+
+
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp-cdn.multiscreensite.com/2eec7337/files/2eec7337_1.min.css?v=66" id="siteGlobalCss" />
+
+
+<style id="customWidgetStyle" type="text/css">.widget-5bd886 .full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.widget-5bd886 .iconBg {
+   display: block !important;
+   width: 100px;
+}
+
+.widget-5bd886 < .iconBg {
+   width: 66px;
+}
+
+.widget-5bd886 .whatsapp-fill { /* default color */
+   fill: currentColor;
+}
+
+.widget-5bd886 .wa-btn-transparent {
+    background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.widget-5bd886 a {
+    padding: 0 !important;
+}
+
+.widget-5bd886 .green-wa {
+    flex: 1;
+    height: 80%;
+}
+
+.widget-5bd886 .green-wa img {
+    height: 100%;
+}
+
+.widget-5bd886 .wa-btns {
+    margin: 0 !important;
+}
+
+.widget-5bd886 .flex-text {
+    flex: 3;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-align: left;
+}
+    
+    .widget-5bd886 {
+    /*overflow: hidden;*/
+    margin: 10px auto;
+    width: 278px;
+}
+    
+    .widget-1f5975 .copyright {
+    font-size: 13px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">
+    
+</style>
+
+<style id="pagestyleDevice" type="text/css">
+    
+</style>
+
+
+
+
+<!--[if IE 7]><style>.fw-head.fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}</style><![endif]-->
+<!--[if IE 8]><style>.fw-head .fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}*#dm div.dmHeader{_height:90px;min-height:0px;}</style><![endif]-->
+
+
+
+    <style id="globalFontSizeStyle" type="text/css">.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }
+    </style>
+    <style id="pageFontSizeStyle" type="text/css">
+    </style>
+
+
+<!-- Flex Sections CSS -->
+
+
+<!-- ========= JS Section ========= -->
+
+<!-- Modernizr -->
+<script>
+    /* THIS FILE IS AUTO-GENERATED. SEE build/build-modernizr */
+
+/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-passiveeventlisteners-supports-setclasses-cssclassprefix:dm- !*/
+!function(e,n,s){function o(e,n){return typeof e===n}function t(){var e,n,s,t,a,r,l;for(var c in i)if(i.hasOwnProperty(c)){if(e=[],n=i[c],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)r=e[a],l=r.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),f.push((t?"":"no-")+l.join("-"))}}function a(e){var n=l.className,s=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");n=n.replace(o,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(n+=" "+s+e.join(" "+s),c?l.className.baseVal=n:l.className=n)}var i=[],r={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){i.push({name:e,fn:n,options:s})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=r,Modernizr=new Modernizr;var f=[],l=n.documentElement,c="svg"===l.nodeName.toLowerCase(),u="CSS"in e&&"supports"in e.CSS,p="supportsCSS"in e;Modernizr.addTest("supports",u||p),Modernizr.addTest("passiveeventlisteners",function(){var n=!1;try{var s=Object.defineProperty({},"passive",{get:function(){n=!0}});e.addEventListener("test",null,s)}catch(o){}return n}),t(),a(f),delete r.addTest,delete r.addAsyncTest;for(var d=0;d<Modernizr._q.length;d++)Modernizr._q[d]();e.Modernizr=Modernizr}(window,document);
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    
+    window.collections = {};
+    </script>
+<script>
+    window.customWidgetsFunctions["5bd886efb15a44fd98f083f461519ec8~186"] = function (element, data, api) {
+        
+$(element).find('a').each(function() {
+    var href = buildNewHref(cleanPhoneText(data.config.waNumber), cleanAndEncodeText(data.config.defaultMessage));
+    $(this).attr('href', href);
+    function clickHandler() {
+       window.dmsnowplow && window.dmsnowplow("Whatsapp", "Message", element, data.siteId)
+    }
+    element.off('click', clickHandler).on('click', clickHandler);
+})
+
+function cleanPhoneText(phone) {
+    return phone ? phone.replace(/[^0-9]/g, '') : "";
+}
+
+function cleanAndEncodeText(text) {
+    var returnString="";
+    if (text) {
+        returnString = text.replace(/<br>/g, '\n');
+        returnString = encodeURIComponent(returnString);
+    }
+    return returnString;
+}
+
+function buildNewHref (phone, text) {
+    var href;
+    if (data.inEditor) {
+        //editor is on touch device
+        if (window.isMobileDevice || window.parent.isTouchDevice) {
+            href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+        }
+        //etitor on desktop
+        else {
+            href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+        }
+    }
+    // not in editor - runtime
+    else {
+         if (data.device === "desktop") {
+             href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+         }
+         //on touch device
+         else {
+             href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+         }
+    }
+    return href;
+}
+
+    };
+</script>
+<script>
+                window.collections = JSON.parse(decodeURIComponent(escape(atob("e30="))));
+</script>
+
+
+
+<script type="text/javascript">
+
+    var version = "5.9.4";
+    var build = "2020-11-03T07_51_56";
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2020-11-03T07_51_56";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" src="https://static-cdn.multiscreensite.com/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery --><script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<script>
+    var shouldMonitorImages =  false;
+    if(shouldMonitorImages) {
+        window.addEventListener('error', function(event) {
+            if(event.target && event.target.tagName === 'IMG' && event.target.src && event.target.src.includes && event.target.src.includes('multiscreensite.com')) {
+                if (!window.fetch){
+                    return;
+                }
+                try {
+                    return fetch('/_dm/s/rt/actions/log/WARN', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ data: {
+                                type: 'image failed to load',
+                                eventType: event.type,
+                                image: event.target.src,
+                                href: window.location.href
+                            } })
+                    });
+                } catch (error) {
+                    console.log(error);
+                }
+
+            }
+        }, { capture: true });
+    }
+
+</script>
+<!-- HEAD RT JS Include -->
+<script>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["facebook.accessToken"] = '126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["feature.flag.contactUsNewForm"] = 'true';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"]=true;
+    rtCommonProps["common.build.dist.folder"]='production/1476';
+    rtCommonProps["common.resources.cdn.host"]='https://static-cdn.multiscreensite.com';
+    rtCommonProps["common.resources.folder"]='https://static-cdn.multiscreensite.com/mnlt/production/1476';
+    rtCommonProps["import.images.storage.useImageCDN"]=true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.animations.allowInMobile"]=true;
+    rtCommonProps["feature.flag.videoRefresh.refactor"]=true;
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['editor.infra.noPrefixedChanges'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.mark.anchors']= true;
+    rtCommonProps['feature.flag.runtime.miniheader.chromefix'] = false;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"]=160;
+    rtCommonProps["images.sizes.mobile"]=640;
+    rtCommonProps["images.sizes.tablet"]=1280;
+    rtCommonProps["images.sizes.desktop"]=1920;
+    rtCommonProps["modules.resources.cdn"]=true;
+    rtCommonProps["import.images.storage.imageCDN"]='https://lirp-cdn.multiscreensite.com/';
+    rtCommonProps["facebook.api.version"]='7.0';
+    rtCommonProps["custom.widget.new.runtime.enabled"]=true;
+
+</script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/scripts/d-js-runtime-one-package.min.js" ></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-package.min.js" ></script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-desktop.min.js" ></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+
+
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:image" content="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/no-tractors-160702_1280-1920w.png"/>
+  <meta property="og:image" content="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/no-tractors-160702_1280-1920w.png"/>
+
+
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot"  class="supportsFontIcons supportsFontIcons dmRoot dmDesktopBody fix-mobile-scrolling dmResellerSite mac dmLargeBody " style="padding:0;margin:0;"
+            >
+        <div id="disabledImageZone" style="display:none;z-index:-1">
+            <style type="text/css">#imageZone {
+                    position: absolute;
+                    margin: auto;
+                }
+
+                .coloumns {
+                    border-radius: 3px;
+                    background-color: rgb(249, 152, 13); /*border:1px solid #999;*/
+                    height: 18px;
+                    width: 6px;
+                    -webkit-animation-name: loader;
+                    -webkit-animation-duration: 1s;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-direction: linear;
+                    -moz-animation-name: loader;
+                    -moz-animation-duration: 1s;
+                    -moz-animation-iteration-count: infinite;
+                    -moz-animation-direction: linear;
+                    opacity: .25;
+                    -webkit-transform: scale(0.7);
+                    -webkit-transform-origin: 50% 180%;
+                    -moz-transform: scale(0.7);
+                    -moz-transform-origin: 50% 180%;
+                    position: absolute;
+                }
+
+                #coloumn1 {
+                    -webkit-transform: rotate(0deg);
+                    -webkit-animation-delay: -.914s;
+                    -moz-transform: rotate(0deg);
+                    -moz-animation-delay: -.914s;
+                }
+
+                #coloumn2 {
+                    -webkit-transform: rotate(30deg);
+                    -webkit-animation-delay: -.831s;
+                    -moz-transform: rotate(30deg);
+                    -moz-animation-delay: -.831s;
+                }
+
+                #coloumn3 {
+                    -webkit-transform: rotate(60deg);
+                    -webkit-animation-delay: -.747s;
+                    -moz-transform: rotate(60deg);
+                    -moz-animation-delay: -.747s;
+                }
+
+                #coloumn4 {
+                    -webkit-transform: rotate(90deg);
+                    -webkit-animation-delay: -.664s;
+                    -moz-transform: rotate(90deg);
+                    -moz-animation-delay: -.664s;
+                }
+
+                #coloumn5 {
+                    -webkit-transform: rotate(120deg);
+                    -webkit-animation-delay: -.581s;
+                    -moz-transform: rotate(120deg);
+                    -moz-animation-delay: -.581s;
+                }
+
+                #coloumn6 {
+                    -webkit-transform: rotate(150deg);
+                    -webkit-animation-delay: -.498s;
+                    -moz-transform: rotate(150deg);
+                    -moz-animation-delay: -.498s;
+                }
+
+                #coloumn7 {
+                    -webkit-transform: rotate(180deg);
+                    -webkit-animation-delay: -.415s;
+                    -moz-transform: rotate(180deg);
+                    -moz-animation-delay: -.415s;
+                }
+
+                #coloumn8 {
+                    -webkit-transform: rotate(210deg);
+                    -webkit-animation-delay: -.332s;
+                    -moz-transform: rotate(210deg);
+                    -moz-animation-delay: -.332s;
+                }
+
+                #coloumn9 {
+                    -webkit-transform: rotate(240deg);
+                    -webkit-animation-delay: -.249s;
+                    -moz-transform: rotate(240deg);
+                    -moz-animation-delay: -.249s;
+                }
+
+                #coloumn10 {
+                    -webkit-transform: rotate(270deg);
+                    -webkit-animation-delay: -.166s;
+                    -moz-transform: rotate(270deg);
+                    -moz-animation-delay: -.166s;
+                }
+
+                #coloumn11 {
+                    -webkit-transform: rotate(300deg);
+                    -webkit-animation-delay: -.083s;
+                    -moz-transform: rotate(300deg);
+                    -moz-animation-delay: -.083s;
+                }
+
+                #coloumn12 {
+                    -webkit-transform: rotate(330deg);
+                    -moz-transform: rotate(330deg);
+                }
+
+                @-webkit-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+
+                @-moz-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+            </style>
+            <div id='imageZone'>
+                <div id='coloumn1' class='coloumns'></div>
+                <div id='coloumn2' class='coloumns'></div>
+                <div id='coloumn3' class='coloumns'></div>
+                <div id='coloumn4' class='coloumns'></div>
+                <div id='coloumn5' class='coloumns'></div>
+                <div id='coloumn6' class='coloumns'></div>
+                <div id='coloumn7' class='coloumns'></div>
+                <div id='coloumn8' class='coloumns'></div>
+                <div id='coloumn9' class='coloumns'></div>
+                <div id='coloumn10' class='coloumns'></div>
+                <div id='coloumn11' class='coloumns'></div>
+                <div id='coloumn12' class='coloumns'></div>
+            </div>
+        </div>
+
+        <!-- ========= Site Content ========= -->
+        <div id="dm" class='dmwr'>
+            
+            <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+                 <body dmwrapped="true" id="1084548655"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 hamburger-reverse dmPageBody dmFreeHeader" id="dm-outer-wrapper" data-buttonstyle="BORDER_SHORT" data-soch="true" data-background-size="cover" data-background-attachment="fixed" data-background-repeat="no-repeat" data-background-position="50% 0%" data-background-hide-inner="true" data-background-fullbleed="false" data-background-parallax-selector=".dmSectionParallex" data-background-parallax-speed="0.2"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None"></ul> 
+ <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" preserve-sticky-header="true" logo-size-target="77%" layout="f014fc9487554eb885e18628ee6309e9===header" mini-header-show-only-navigation-row="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="dmRespRow dmDefaultListContentRow u_1592221801 fullBleedChanged fullBleedMode" style="text-align:center" id="1592221801"> <div class="dmRespColsWrapper" id="1272384545"> <div class="u_1602432589 small-12 dmRespCol large-3 medium-3" id="1602432589"> <div class="u_1505251491 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1505251491" data-element-type="image"> <a href="index.html" id="1039659104"><img src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-09+at+21.40.18-140w.png" id="1661378420" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-09+at+21.40.18.png" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1740290437 dmRespCol small-12 large-5 medium-5" id="1740290437"> <span id="1936888443"></span> 
+ <nav class="u_1186044394 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1186044394" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-nav-structure="HORIZONTAL" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="false"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         HOME
+        
+                " data-auto&#x3d;page-text-style="">HOME<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="shop.html" class="unifiednav__item  dmUDNavigationItem_010101340226  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         SHOP
+        
+                " data-auto&#x3d;page-text-style="">SHOP<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="about.html" class="unifiednav__item  dmUDNavigationItem_01010156360  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         ABOUT
+        
+                " data-auto&#x3d;page-text-style="">ABOUT<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stories.html" class="unifiednav__item  dmUDNavigationItem_010101579104  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         GALLERY
+        
+                " data-auto&#x3d;page-text-style="">GALLERY<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stores.html" class="unifiednav__item  dmUDNavigationItem_010101662264  unifiednav__item_has-sub-nav" target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Contact Us
+        
+                " data-auto&#x3d;page-text-style="">Contact Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto&#x3d;sub-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stores.html#FINDUS" class="unifiednav__item  dmUDNavigationItem_010101375889  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                      
+           FIND US
+          
+                    " data-auto&#x3d;page-text-style="">FIND US<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1197067183 dmRespCol small-12 large-3 medium-3" id="1197067183"> <div class="u_1056299044 widget-5bd886 dmCustomWidget" data-lazy-load="" id="1056299044" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="5bd886efb15a44fd98f083f461519ec8" data-widget-version="186" data-widget-config="eyJ3YU51bWJlciI6IisyNzY2MjI2NzQwNiIsImJ0blRleHQiOiIgV2hhdHNBcHAgMDY2IDIyNiA3NDA2IiwiZGVmYXVsdE1lc3NhZ2UiOiIiLCJhbHQiOiJNZXNzYWdlIHVzIG9uIFdoYXRzQXBwIiwid2FMYXlvdXQiOiJ0cmFuc3BhcmVudCJ9"> <a data-display-type="block" class="dmWidget  wa-btns default wa-btn-transparent align-center full" target="_blank" data-buttonstyle="FLAT_ROUND_ICON"> <div class="green-wa"><img src="https://dd-cdn.multiscreensite.com/editor/whatsApp/svg-whatsapp.svg" alt="Message us on WhatsApp" onerror="handleImageLoadError(this)"/></div> 
+ <span class="text flex-text" style="color:black">WhatsApp 066 226 7406</span> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1064460770 dmRespCol small-12 large-1 medium-1" id="1064460770"> <div class="u_1964859585 dmStoreCart" data-element-type="ec_store_cart" id="1964859585"> <span class="cartIcon dm-icon-shopping-cart ecwid" id="1246563518"> <span class="cartItems" id="1994636940">0</span> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1451124529 dmRespRow fullBleedChanged fullBleedMode" style="text-align: center;" id="1451124529"> <div class="dmRespColsWrapper" id="1869292564"> <div class="u_1046040333 dmRespCol small-12 medium-6 large-6" id="1046040333"> <span id="1206231395"></span> 
+ <h6 class="u_1286425499 dmNewParagraph" data-element-type="paragraph" id="1286425499" style="text-align: center; transition: none 0s ease 0s; display: block;" data-uialign="left"><font color="#ffffff"><span style="font-weight: 400;" class="lh-1 font-size-18">&nbsp; &nbsp; Montana Boeredienste</span></font></h6></div> 
+ <div class="u_1358832567 dmRespCol small-12 medium-6 large-6" id="1358832567"> <span id="1827838036"></span> 
+ <div class="u_1781749339 dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1781749339" style="transition: opacity 1s ease-in-out 0s;"><font style="color: rgb(255, 255, 255);"><a href="faq.html" runtime_url="/faq" style="color: rgb(255, 255, 255); text-decoration: none;"><b>FAQ</b></a></font></div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"></div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1084548655" class="dmBody u_dmStyle_template_dmPageNotFound"> <div id="allWrapper" class="allWrapper"> <div id="dm_content" class="dmContent"> <div> <style>#dm #error-container {
+			display: block;
+			position: relative;
+			width: 100%;
+			padding-top:120px;
+			background: #fff;
+			color: #bababa;
+			text-align: center;
+			font-family: 'Source Sans Pro';
+			overflow: hidden;
+		}
+
+		.dmMobileBody #error-container {
+			padding-top: 60px;
+		}
+
+		.four-o-four {
+			font-family: 'Oswald', sans-serif;
+			font-size: 130px;
+			text-align: center;
+			line-height: 130px;
+		}
+
+		.lean {
+			display: inline-block;
+			-webkit-transform: rotate(15deg) translate(-5px,-4px);
+			-moz-transform: rotate(15deg) translate(-5px,-4px);
+			transform: rotate(15deg) translate(-5px,-4px);
+		}
+
+		.description {
+			font-size: 22px;
+			margin: 45px 0;
+		}
+
+		.dmInner .back-button {
+			display: inline-block;
+			width: 184px;
+			height: 37px;
+			margin-bottom: 20px;
+			background: #898989;
+			color: #fff;
+			text-align: center;
+			font-size: 16px;
+			line-height: 37px;
+			border-radius: 2px;
+			box-sizing: border-box;
+			text-decoration: none;
+			cursor: pointer;
+		}</style> 
+ <div id="error-container" class="dmRespRowsWrapper"> <div class="text-container dmRespRow"> <div class="large-12 medium-12 small-12 dmRespCol"> <div class="four-o-four"> <span class="lean">4</span> 
+04</div> 
+ <div class="description">The page you are looking for<br/>can not be found</div> 
+ <a href="index.html" class="back-button">Return to Homepage</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="dmRespRow u_1958937570" id="1958937570"> <div class="dmRespColsWrapper" id="1689624585"> <div class="dmRespCol small-12 large-3 medium-3 u_1752967300" id="1752967300"> <div class="dmRespRow u_1620741786" id="1620741786" mode="2"> <div class="dmRespColsWrapper" id="1977515514"> <div class="u_1355125337 dmRespCol large-4 medium-4 small-6" id="1355125337"> <div class="u_1507280280 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1507280280" data-layout="graphic-style-1"> <a id="1505639451" class=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1702840187" class="svg u_1702840187" data-icon-custom="true" data-icon-name="open-lockArtboard 2.svg"> <title id="1235471440">open-lockArtboard 2</title> 
+ <g id="1511979140"> <path d="M22.27,93.24c-1.43,0-1.84-.36-1.84-1.82q.08-23.67,0-47.33c0-1.54.44-1.91,1.93-1.91,14.14.06,28.27,0,42.4,0,.49,0,1,0,1.47,0,.66,0,1-.21,1-.94-.19-5.53.52-11.1-.41-16.59-1.51-9-11.64-15.5-20.42-13.18-7.31,1.93-12,6.49-13.26,14.11-.16.93-.5,1.36-1.53,1.3-3.5-.18-3.36.87-2.59-3.33A14.17,14.17,0,0,1,29.44,22C32.29,12.27,42.66,5.52,52.58,6.94c10.91,1.58,19,10.46,19,21,0,2.8,0,5.6,0,8.4,0,1.88-.63,4.38.32,5.48,1.1,1.26,3.68.41,5.6.37,1.53,0,2.08.29,2.07,2q-.1,23.57,0,47.15c0,1.51-.39,2-1.92,1.94-9.14-.08-18.27,0-27.41,0C40.91,93.21,31.59,93.18,22.27,93.24Zm51-4.43c1.47,0,1.8-.45,1.8-1.85q-.07-19.27,0-38.56c0-1.4-.32-1.88-1.81-1.87q-23.39.07-46.79,0c-1.44,0-1.67.48-1.67,1.78,0,12.91.06,25.83,0,38.74,0,1.55.54,1.76,1.87,1.75,7.8,0,15.6,0,23.4,0S65.52,88.73,73.26,88.81Z" id="1252620011"></path> 
+</g> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1845284279 dmRespCol large-8 medium-8 small-6" id="1845284279"> <h5 class="u_1618474065 dmNewParagraph" data-element-type="paragraph" id="1618474065" style="transition: none 0s ease 0s; display: block;" data-uialign="right"><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);">Secure payment</font></span><br/></h5></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3 u_1607474409" id="1607474409"> <div class="dmRespRow u_1661640469" id="1661640469" mode="2"> <div class="dmRespColsWrapper" id="1517248526"> <div class="u_1586201846 dmRespCol large-4 medium-4 small-6" id="1586201846"> <div class="u_1649750257 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1649750257" data-layout="graphic-style-1"> <a id="1713535343" class=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1625964014" class="svg u_1625964014" data-icon-name="business_headphones_mic"> <path d="M92.36,56.19a11,11,0,0,0-7.2-10.34,35.16,35.16,0,0,0-70.32,0,11,11,0,0,0,3.83,21.37H20a4.09,4.09,0,0,0,8.17-.16V45.32A4.09,4.09,0,0,0,20,45.16h-1.3A11,11,0,0,0,17,45.3a33,33,0,0,1,66,0,11,11,0,0,0-1.67-.14H80a4.09,4.09,0,0,0-8.17.16V67.07a4.1,4.1,0,0,0,4.09,4.09,4,4,0,0,0,1.89-.49A16.85,16.85,0,0,1,61.32,86.56a4.18,4.18,0,0,0,.56-2.07,4.24,4.24,0,0,0-4.24-4.24H53.82a4.24,4.24,0,0,0,0,8.47H61a19,19,0,0,0,19-19v-2.5h1.29A11.05,11.05,0,0,0,92.36,56.19ZM24.06,43.38A1.94,1.94,0,0,1,26,45.32V67.07a1.94,1.94,0,0,1-3.88,0V45.32A1.94,1.94,0,0,1,24.06,43.38ZM20,47.31V65.08H18.68a8.88,8.88,0,0,1,0-17.77Zm37.5,39.27H53.82a2.08,2.08,0,0,1,0-4.17h3.83a2.08,2.08,0,0,1,0,4.17ZM75.94,69A1.94,1.94,0,0,1,74,67.07V45.32a1.94,1.94,0,1,1,3.88,0V67.07A1.94,1.94,0,0,1,75.94,69Zm5.38-3.93H80V47.31h1.29a8.88,8.88,0,1,1,0,17.77Z" id="1899764819"></path> 
+ <path d="M43.59,57.27a1.08,1.08,0,0,0,0-2.15H41.4a1.08,1.08,0,0,0,0,2.15Z" id="1807125730"></path> 
+ <path d="M51.1,57.27a1.08,1.08,0,0,0,0-2.15H48.9a1.08,1.08,0,0,0,0,2.15Z" id="1408565079"></path> 
+ <path d="M58.6,57.27a1.08,1.08,0,0,0,0-2.15h-2.2a1.08,1.08,0,0,0,0,2.15Z" id="1229674337"></path> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1632344745 dmRespCol large-8 medium-8 small-6" id="1632344745"> <h5 class="u_1678032172 dmNewParagraph" data-element-type="paragraph" id="1678032172" style="transition: none 0s ease 0s; display: block;" data-uialign="right"><font color="#ffffff"><span style="font-weight: 300;">Customer support</span></font></h5></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3 u_1438430955" id="1438430955"> <div class="dmRespRow u_1961522203" id="1961522203" mode="2"> <div class="dmRespColsWrapper" id="1476598441"> <div class="u_1417971866 dmRespCol large-4 medium-4 small-6" id="1417971866"> <div class="u_1646798480 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1646798480" data-layout="graphic-style-1"> <a id="1457978107" class=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1971153994" class="svg u_1971153994" data-icon-name="transportation_truck_clock"> <path d="M86.52,56.88c0-.24-.3-5.94-2.86-9.14a9.87,9.87,0,0,0-5-3.06A16.58,16.58,0,0,0,73.9,44H68.67V39.2a3.41,3.41,0,0,0-3.41-3.41H49.71a18.6,18.6,0,1,0-25.5,22.74V67.2a3.41,3.41,0,0,0,3.41,3.41h3.26a7.61,7.61,0,0,0,15,0H68.8a7.61,7.61,0,0,0,15-.07,3.42,3.42,0,0,0,2.72-3.34V56.94S86.52,56.9,86.52,56.88Zm-60.18-.26A16,16,0,0,1,16.12,43h1.65a1.3,1.3,0,1,0,0-2.59H16.13A16,16,0,0,1,30.78,25.73v1.65a1.3,1.3,0,1,0,2.59,0V25.73A16,16,0,0,1,47.53,37.51l.09.36.07.3q.06.28.12.57c0,.12,0,.23.06.35l.05.33q0,.23.06.45c0,.09,0,.18,0,.27s0,.16,0,.25H46.38a1.3,1.3,0,1,0,0,2.59H48A16,16,0,0,1,33.37,57.63V56a1.3,1.3,0,1,0-2.59,0v1.65l-.31,0-.25,0-.54-.07-.26,0-.52-.09-.28-.06-.48-.11-.3-.08L27.39,57l-.32-.1-.42-.14Zm12,17.7a5,5,0,0,1-5-5h0a5,5,0,1,1,5,5ZM66.07,68H45.88a7.61,7.61,0,0,0-15,0H27.63a.82.82,0,0,1-.82-.82V59.52l.61.17h0l.82.19.19,0,.69.12.16,0,.84.11h.13l.72.06h.22l.86,0a18.6,18.6,0,0,0,18.6-18.6h0c0-.3,0-.59,0-.89,0-.13,0-.25,0-.38s0-.33,0-.49,0-.32-.05-.49,0-.24,0-.36-.05-.36-.09-.54l0-.15H65.26a.82.82,0,0,1,.82.82ZM76.3,74.33a5,5,0,1,1,5-5A5,5,0,0,1,76.3,74.33Zm7.63-7.13a.81.81,0,0,1-.19.52h0A7.61,7.61,0,0,0,68.8,68h-.14V46.61H73.9a14,14,0,0,1,4,.56,7.5,7.5,0,0,1,3.76,2.19c2,2.45,2.27,7.23,2.29,7.61Z" id="1948718966"></path> 
+ <path d="M38.23,43.61l-4.86-2.69V32a1.3,1.3,0,1,0-2.59,0v9.68s0,0,0,.05a1.28,1.28,0,0,0,0,.14s0,.08,0,.12l0,.12,0,.12.06.11.07.1.08.1.09.09.09.08.11.08,0,0L37,45.88a1.3,1.3,0,0,0,1.26-2.27Z" id="1531042506"></path> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1584510590 dmRespCol large-8 medium-8 small-6" id="1584510590"> <h5 class="u_1549535283 dmNewParagraph" data-element-type="paragraph" id="1549535283" style="transition: none 0s ease 0s; display: block;" data-uialign="left"><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);">Collect</font></span><br/></h5></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol large-3 medium-3 small-12 u_1957700998" id="1957700998"> <div class="dmRespRow u_1192870457" id="1192870457" mode="2"> <div class="dmRespColsWrapper" id="1501414171"> <div class="u_1108879732 dmRespCol large-4 medium-4 small-6" id="1108879732"> <div class="u_1136998115 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1136998115" data-layout="graphic-style-1"> <a id="1746576333" class=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1560020666" class="svg u_1560020666" data-icon-name="transportation_airplane_flying_around_world"> <path d="M82.28,33.15a3.18,3.18,0,0,0-1.08-1.44c-.8-.56-2-.82-4.56.23A31.13,31.13,0,0,0,20.16,50q0,1.15.08,2.28l0,.07c-3.11,5.64-3.47,10.36-1,13.28a9.54,9.54,0,0,0,7.51,3.43,31.13,31.13,0,0,0,53.43-30.8C82.49,35.61,82.63,34.18,82.28,33.15Zm-2.57.69h-.07l.09,0,0,0,0,.07c0,.14-.09,1-2.2,3.17l-.22.22-.2.2-.12.12c-.86.85-2,1.88-3.49,3.12l0,0-.63.52,0,0-.7.57,0,0-.68.54-.13.1-.76.59a2.82,2.82,0,0,0-.82,1l0,0-.06.15-.06.16,0,.09c0,.08,0,.16-.06.24s0,.12,0,.18a2.81,2.81,0,0,0,0,.5l.15,3.1c0,.66.08,1.7.1,2.3v.46l.63,14.51L64.28,51.15a2.27,2.27,0,0,0-1.45-1.31l-.3-.07h-.09l-.21,0h-.1l-.27,0h0l-.29.07-.09,0-.21.08-.08,0-.27.15c-2.57,1.73-4.76,3.14-6.23,4.05l-.06,0-.36.22-.14.08-.23.14-1,.59A1.7,1.7,0,0,0,52,56.74c0,.24,0,.49,0,.74,0,.5,0,1,0,1.52-.05,1.26-.13,2.51-.2,3.54l-1.53-3.2-.78-1.64-.08-.15-.06-.09,0,0-.53-.71h0l-.06-.07,0-.05-.12-.12-4-3.57c1.41.3,3.23.71,4.92,1.16l.72.2a1.7,1.7,0,0,0,1.66-.43c.62-.62,3.36-3.1,7.16-6.28l0,0a2.26,2.26,0,0,0,.76-1.41V46s0-.1,0-.14,0-.07,0-.11h0A2.27,2.27,0,0,0,58.91,44L46.41,34l13.77,4.63.71.24,4.84,1.64a2.82,2.82,0,0,0,2.58-.4l.79-.58.15-.11.63-.45.14-.1q1.14-.81,2.12-1.45l0,0,.62-.41,0,0,.59-.38h0c.54-.34,1-.63,1.48-.89q1-.58,1.85-1l0,0C79,33.65,79.63,33.81,79.71,33.84ZM51.29,21.47a28.48,28.48,0,0,1,23,11.62c-1.23.68-2.67,1.57-4.37,2.73h0l-.91.63-.17.12-.79.56-.25.18-.89.65-.13.09a.23.23,0,0,1-.21,0l-1.47-.5-1.46-.5-8.92-3-8-2.68-.2-.05a1.7,1.7,0,0,0-1.37.31l-.72.54a2.24,2.24,0,0,0-.74,1l-.06.17,0,.07,0,.11v0s0,.09,0,.14a2.23,2.23,0,0,0,.51,1.73,2.26,2.26,0,0,0,.31.3L57,45.78c-2.12,1.78-3.93,3.36-5.22,4.51l-.22.2-.42.38-.42.38-.37.35c-1.82-.49-3.8-.94-5.31-1.26l-2.21-.45a1.68,1.68,0,0,0-.57,0h0l-.2,0-.08,0-.07,0a1.7,1.7,0,0,0-1,.91h0l0,0-.21.48a1.71,1.71,0,0,0-.13.51h0a1.7,1.7,0,0,0,0,.19s0,0,0,.07,0,.08,0,.12,0,.09,0,.14l0,.05a1.7,1.7,0,0,0,.51.85l4.78,4.25a54.22,54.22,0,0,1-13.8,7.8,17.14,17.14,0,0,1-4.14,1,28.52,28.52,0,0,1,23.32-45ZM21.17,64c-1.26-1.5-1.32-4-.23-7a30.94,30.94,0,0,0,3.78,9.26A6.74,6.74,0,0,1,21.17,64ZM51.29,78.53A28.48,28.48,0,0,1,29.8,68.76a21.64,21.64,0,0,0,3.18-.9A56.65,56.65,0,0,0,47.5,59.67l1.28,2.68,1.57,3.28a1.69,1.69,0,0,0,1.66,1h.09l.57-.07A1.73,1.73,0,0,0,54.15,65c.09-1,.39-4.58.44-7.71,1.1-.65,3.36-2.06,6.15-3.91l.12-.08L62,52.5l6.17,14.89a2.25,2.25,0,0,0,.14.28v0a2.24,2.24,0,0,0,.17.24l0,0,.19.2,0,0,.21.17,0,0,.24.13.05,0,.26.1h0l.29.06h0l.3,0h.21a2.24,2.24,0,0,0,1.15-.44l.73-.55.1-.08.06-.05,0,0a1.7,1.7,0,0,0,.45-.84v0a1.69,1.69,0,0,0,0-.18,1.72,1.72,0,0,0,0-.21l-.65-15V51c0-.56-.07-1.72-.11-2.46l-.15-3.09a.23.23,0,0,1,.09-.19l.89-.69c2.1-1.65,3.75-3.05,5-4.26A28.55,28.55,0,0,1,51.29,78.53Z" id="1369112241"></path> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1338458749 dmRespCol large-8 medium-8 small-6" id="1338458749"> <h5 class="u_1127729764 dmNewParagraph" data-element-type="paragraph" id="1127729764" style="transition: none 0s ease 0s; display: block;" data-uialign="left"><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);">Shipping info available</font></span><br/></h5></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1350642029 dmRespRow" id="1350642029"> <div class="dmRespColsWrapper" id="1900907953"> <div class="dmRespCol large-12 medium-12 small-12" id="1624308884"> <div class="u_1501966328 dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="classic-rounded" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1501966328" data-rows-to-show="100" data-placeholder="false" data-auto-adjust-columns="true"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1087946412" dont_set_id="true"> <li index="0" class="photoGalleryThumbs" id="1089205455"> <div class="image-container" id="1838139435"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot%2B2020-05-14%2Bat%2B22.43.36.png" id="1641886866" class="u_1641886866"><img data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot%2B2020-05-14%2Bat%2B22.43.36-1920w.png" irh="1" irw="2" alt="" id="1442935003" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1631323815" id="1631323815"> <span class="caption-inner" id="1203785949"> <h3 class="caption-title u_1370541146" id="1370541146"></h3> 
+ <div class="caption-text u_1201572630" id="1201572630"><br/></div> 
+ <a class="caption-button dmWidget   clearfix u_1656306923" href="" id="1656306923"> <span class="iconBg" id="1016609849"> <span class="icon hasFontIcon icon-star" id="1755953331"></span> 
+</span> 
+ <span class="text" id="1130493741">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="1" class="photoGalleryThumbs" id="1148905726"> <div class="image-container" id="1717706385"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot%2B2020-05-14%2Bat%2B22.38.32.png" id="1332206638" class="u_1332206638"><img data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot%2B2020-05-14%2Bat%2B22.38.32-1920w.png" irh="2" irw="3" alt="" id="1182022758" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1779801573" id="1779801573"> <span class="caption-inner" id="1163787178"> <h3 class="caption-title u_1978716590" id="1978716590"></h3> 
+ <div class="caption-text u_1987045172" id="1987045172">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1260611172" href="" id="1260611172"> <span class="iconBg" id="1588030542"> <span class="icon hasFontIcon icon-star" id="1636535967"></span> 
+</span> 
+ <span class="text" id="1022949472">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1628276081"> <div class="image-container" id="1649782669"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+15.33.42.png" id="1634885427" class="u_1634885427"><img data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+15.33.42-1920w.png" irh="3" irw="4" alt="" id="1649832195" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1927650714" id="1927650714"> <span class="caption-inner" id="1578671024"> <h3 class="caption-title u_1083600881" id="1083600881">Fashion Magazine</h3> 
+ <div class="caption-text u_1884368487" id="1884368487">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1391884647" href="" id="1391884647"> <span class="iconBg" id="1537098374"> <span class="icon hasFontIcon icon-star" id="1947730054"></span> 
+</span> 
+ <span class="text" id="1070500683">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1484138322"> <div class="image-container" id="1487847580"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+18.58.52.png" id="1845614612" class="u_1845614612"><img data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+18.58.52-1920w.png" irh="4" irw="5" alt="" id="1607818799" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1318930546" id="1318930546"> <span class="caption-inner" id="1210598688"> <h3 class="caption-title u_1268565709" id="1268565709">Blurred Lines</h3> 
+ <div class="caption-text u_1352446556" id="1352446556">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1254872450" href="" id="1254872450"> <span class="iconBg" id="1535341715"> <span class="icon hasFontIcon icon-star" id="1154629780"></span> 
+</span> 
+ <span class="text" id="1578674515">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1286756969"> <div class="image-container" id="1170240631"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+15.34.21.png" id="1897858379" class="u_1897858379"><img irh="" irw="" alt="" data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+15.34.21-1920w.png" id="1012123886" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1827116310"> <span class="caption-inner" id="1130591343"> <h3 class="caption-title" id="1302941312"></h3> 
+ <div class="caption-text" id="1884499489"></div> 
+ <a class="caption-button dmWidget clearfix" id="1231323854"> <span class="iconBg" id="1311142035"> <span class="icon hasFontIcon icon-star" id="1724884256"></span> 
+</span> 
+ <span class="text" id="1297223307">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1642541748"> <div class="image-container" id="1997995657"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+15.30.41.png" id="1250217839" class="u_1250217839"><img irh="" irw="" alt="" data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+15.30.41-1920w.png" id="1464647411" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1005434867"> <span class="caption-inner" id="1512869752"> <h3 class="caption-title" id="1691466782"></h3> 
+ <div class="caption-text" id="1128244518"></div> 
+ <a class="caption-button dmWidget clearfix" id="1114239022"> <span class="iconBg" id="1855383579"> <span class="icon hasFontIcon icon-star" id="1741420444"></span> 
+</span> 
+ <span class="text" id="1464900180">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1002117406"> <div class="image-container" id="1194615001"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-14+at+23.11.36.png" id="1208126073" class="u_1208126073"><img irh="" irw="" alt="" data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-14+at+23.11.36-1920w.png" id="1705761885" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1606756190"> <span class="caption-inner" id="1702290200"> <h3 class="caption-title" id="1997234731"></h3> 
+ <div class="caption-text" id="1829083823"></div> 
+ <a class="caption-button dmWidget clearfix" id="1465406050"> <span class="iconBg" id="1130451547"> <span class="icon hasFontIcon icon-star" id="1810880154"></span> 
+</span> 
+ <span class="text" id="1295781149">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1518337916"> <div class="image-container" id="1438038149"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+19.00.07.png" id="1981110730" class="u_1981110730"><img irh="" irw="" alt="" data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+19.00.07-1920w.png" id="1903290047" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1759452258"> <span class="caption-inner" id="1043431454"> <h3 class="caption-title" id="1321395023"></h3> 
+ <div class="caption-text" id="1297954798"></div> 
+ <a class="caption-button dmWidget clearfix" id="1162532691"> <span class="iconBg" id="1325042192"> <span class="icon hasFontIcon icon-star" id="1220196236"></span> 
+</span> 
+ <span class="text" id="1679440641">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1129800494"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1632155419" style="text-align: center;" id="1632155419"> <div class="dmRespColsWrapper" id="1253858808"> <div class="u_1063824722 dmRespCol small-12 large-3 medium-3" id="1063824722"> <h5 class="dmNewParagraph" data-element-type="paragraph" id="1892839119" style="transition: opacity 1s ease-in-out 0s;" data-uialign="left"><font style="font-weight: normal; color: rgb(176, 176, 176);">Montana Boeredienste</font></h5> <div class="u_1810098025 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1810098025" data-element-type="image"><img src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-09+at+21.40.18-140w.png" id="1506432110" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-09+at+21.40.18.png" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3" id="1296613880"> <h5 class="dmNewParagraph" data-element-type="paragraph" id="1032662425" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"><font style="font-weight: normal; color: rgb(176, 176, 176);">LOCATE US</font></h5> <h6 class="dmNewParagraph u_1211575297" data-element-type="paragraph" id="1211575297" data-uialign="center"> <div><font color="#ffffff">Montana</font></div> 
+ <div><font color="#ffffff">Cookhouse, Eastern Cape, South Africa 5820</font></div> 
+</h6> <h6 class="dmNewParagraph u_1374207927" data-element-type="paragraph" id="1374207927" style="transition: none 0s ease 0s; display: block;" data-uialign="center"> <div><span style="color: rgb(255, 255, 255);">Office 066 226 7406</span></div> 
+ <div><span style="color: rgb(255, 255, 255);">082 567 7920</span><br/></div> 
+<div><font color="#ffffff"><span style="font-weight: 400;">riaankferreira@gmail.com</span></font></div></h6></div> 
+ <div class="dmRespCol small-12 large-3 medium-3" id="1810721555"> <h5 class="dmNewParagraph" data-element-type="paragraph" id="1148930754" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"><font style="font-weight: normal; color: rgb(176, 176, 176);">INFORMATION</font></h5> <nav class="u_1090877790 unifiednav_vertical effect-text-fill main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1090877790" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/desktop/glasses_logo_cercleArtboard+12.svg" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="true" data-build-your-own="W3sidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDBfaXRlbSIsImxhYmVsIjoiXG4gICAgICAgICAgICAgICAgICBcbiAgICAgICAgIEhPTUVcbiAgICAgICAgXG4gICAgICAgICAgICAgICAgIiwiaHJlZiI6Ii8iLCJ2YWx1ZSI6ImhvbWUiLCJ0YXJnZXQiOm51bGwsInBvcHVwX3RhcmdldCI6bnVsbCwiaXRlbXMiOltdfSx7InR5cGUiOiJwYWdlIiwibmF2SWQiOiJkbV9uYXZHcm91cDAxMDEwMTU2MzYwX2l0ZW0iLCJsYWJlbCI6IlxuICAgICAgICAgICAgICAgICAgXG4gICAgICAgICBBQk9VVFxuICAgICAgICBcbiAgICAgICAgICAgICAgICAiLCJocmVmIjoiL2Fib3V0IiwidmFsdWUiOiJhYm91dCIsInRhcmdldCI6bnVsbCwicG9wdXBfdGFyZ2V0IjpudWxsLCJpdGVtcyI6W119LHsidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxNTc5MTA0X2l0ZW0iLCJsYWJlbCI6IlxuICAgICAgICAgICAgICAgICAgXG4gICAgICAgICBHQUxMRVJZXG4gICAgICAgIFxuICAgICAgICAgICAgICAgICIsImhyZWYiOiIvc3RvcmllcyIsInZhbHVlIjoidGhlLWJyYW5kIiwidGFyZ2V0IjpudWxsLCJwb3B1cF90YXJnZXQiOm51bGwsIml0ZW1zIjpbXX0seyJ0eXBlIjoicGFnZSIsIm5hdklkIjoiZG1fbmF2R3JvdXAwMTAxMDE2NjIyNjRfaXRlbSIsImxhYmVsIjoiXG4gICAgICAgICAgICAgICAgICBcbiAgICAgICAgIENvbnRhY3QgVXNcbiAgICAgICAgXG4gICAgICAgICAgICAgICAgIiwiaHJlZiI6Ii9zdG9yZXMiLCJ2YWx1ZSI6InN0b3JlcyIsInRhcmdldCI6bnVsbCwicG9wdXBfdGFyZ2V0IjpudWxsLCJpdGVtcyI6W119LHsidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxNTg1NzgzX2l0ZW0iLCJsYWJlbCI6IkhPTUUiLCJocmVmIjoiLyIsInZhbHVlIjoiZmFxIiwidGFyZ2V0IjpudWxsLCJwb3B1cF90YXJnZXQiOm51bGwsIml0ZW1zIjpbXX1d"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         HOME
+        
+                " data-auto&#x3d;page-text-style="">HOME<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="about.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         ABOUT
+        
+                " data-auto&#x3d;page-text-style="">ABOUT<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stories.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         GALLERY
+        
+                " data-auto&#x3d;page-text-style="">GALLERY<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stores.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Contact Us
+        
+                " data-auto&#x3d;page-text-style="">Contact Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="HOME" data-auto&#x3d;page-text-style="">HOME<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="dmRespCol large-3 medium-3 small-12" id="1665038804"> <h5 class="dmNewParagraph" data-element-type="paragraph" id="1613299010" style="transition: opacity 1s ease-in-out 0s;" data-uialign="right"><font style="font-weight: normal; color: rgb(176, 176, 176);">CONNECT</font></h5> <div class="u_1701717161 align-center text-align-center dmSocialHub" id="1701717161" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1806929862 dmRespRow" id="1806929862"> <div class="dmRespColsWrapper" id="1189144305"> <div class="dmRespCol large-12 medium-12 small-12" id="1029849168"> <div class="u_1939434174 widget-1f5975 dmCustomWidget" data-lazy-load="" id="1939434174" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPjxzcGFuIHN0eWxlPVwiY29sb3I6cmdiYSgyNTUsIDI1NSwgMjU1LCAxKVwiPjxlbT48YSB2YWx1ZT1cImh0dHA6Ly93d3cucHJpbnR3YXJlY29tcHV0ZXJzLmNvLnphXCIgbGFiZWw9XCJcIiB0eXBlPVwidXJsXCIgaHJlZj1cImh0dHA6Ly93d3cucHJpbnR3YXJlY29tcHV0ZXJzLmNvLnphXCIgdGFyZ2V0PVwiX2JsYW5rXCIgZGF0YS1ydW50aW1lLXVybD1cImh0dHA6Ly93d3cucHJpbnR3YXJlY29tcHV0ZXJzLmNvLnphXCI+QWxsIFJpZ2h0cyBSZXNlcnZlZCB8RGVzaWduZWQgYnkgUHJpbnR3YXJlIENvbXB1dGVycyAwODIgNDE5IDY2MDYgJm5ic3A7cHJpbnR3YXJlQGhvdG1haWwuY28uemE8L2E+PC9lbT48L3NwYW4+PC9wPiJ9"> <div class="copyright"> <div>&copy; 2020&nbsp;</div> 
+ <div> <p class="rteBlock"> <span style="color:rgba(255, 255, 255, 1)"> <em> <a value="http://www.printwarecomputers.co.za" label="" type="url" href="../www.printwarecomputers.co.za/index.html" target="_blank" data-runtime-url="http://www.printwarecomputers.co.za">All Rights Reserved |Designed by Printware Computers 082 419 6606 &nbsp;printware@hotmail.co.za</a> 
+</em> 
+</span> 
+</p> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false" data-dmtmpl="true"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</body> 
+
+            </div>
+        </div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: 2eec7337 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+
+<script>
+
+    jQuery(window).load(function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+        ;
+    });
+</script>
+<script>
+    dmAPI.loadScript(window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js', function () {
+        dmAPI.runOnReady('lozadInit', function () {
+            window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                img.addEventListener('load', function (event) {
+                    var img = event.target;
+                    img.style.filter = 'blur(0)';
+                    setTimeout(function () {
+                        $(img).closest('.imageWidget').addClass('lazyLoaded');
+                    }, 250)
+                });
+            });
+            lozad('.lazy', {
+                threshold: 0.1,
+                loaded: function (element) {
+                    if (element.getAttribute('data-background-image')) {
+                        element.style.setProperty(
+                            'background-image',
+                            "url('" + element.getAttribute('data-background-image') + "')",
+                            "important"
+                        );
+                    }
+                }
+            }).observe();
+        });
+    });
+</script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+            <!--  Site Wide Html Markup -->
+</body>
+</html>

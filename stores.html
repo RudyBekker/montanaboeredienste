@@ -1,0 +1,2091 @@
+<!doctype html >
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"
+      class="">
+<head>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    window._currentDevice = 'desktop';
+    window.Parameters = window.Parameters || {
+        AjaxContainer: 'div.dmBody',
+        WrappingContainer: 'div.dmOuter',
+        HomeUrl: 'https://www.montanaboeredienste.co.za/',
+        AccountUUID: '6850ac2082cd460ea9f85369fb846cf9',
+        SystemID: 'US_DIRECT_PRODUCTION',
+        SiteAlias: '2eec7337',
+        SiteId: '1775048',
+        SiteType: atob('RFVEQU9ORQ=='),
+        ExternalUid: null,
+        IsSiteMultilingual: false,
+        InitialPostAlias: '',
+        InitialDynamicItem: '',
+        InitialPageAlias: 'stores',
+        InitialEncodedPageAlias: 'c3RvcmVz',
+        CurrentPageUrl: '',
+        IsCurrentHomePage: false,
+        AllowAjax: true,
+        AfterAjaxCommand: null,
+        HomeLinkText: 'Back To Home',
+        UseGalleryModule: false,
+        CurrentThemeName: 'Layout Theme',
+        ThemeVersion: '1370',
+        DefaultPageAlias: '',
+        RemoveDID: true,
+        WidgetStyleID : null,
+        IsHeaderFixed: false,
+        IsHeaderSkinny: false,
+        IsBfs: true,
+        LayoutParams : {
+            _navigationAnimationStyle: 'slide',
+            _manifestId : 10600,
+            _device : 'desktop'
+        },
+        StorePageAlias: 'shop',
+        StorePath: '/shop',
+        StoreId: '29457303',
+        StoreVersion: 2,
+        StoreBaseUrl: '/shop',
+        StoreCleanUrl: true,
+        StoreDisableScrolling: true,
+        NotificationSubDomain: 'montanaboeredienste',
+        HasCustomDomain: true,
+        showCookieNotification: false,
+        cookiesNotificationMarkup: 'null',
+        translatedPageUrl: '',
+        isFastMigrationSite: false,
+        sidebarPosition: 'NA',
+        currentLanguage: 'en',
+        NavItems: 'W3sidGl0bGUiOiJIT01FIiwiYWxpYXMiOiJob21lIiwicGF0aCI6Ii8iLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJTSE9QIiwiYWxpYXMiOiJzaG9wIiwicGF0aCI6Ii9zaG9wIiwiaW5OYXZpZ2F0aW9uIjp0cnVlLCJzdWJOYXYiOltdfSx7InRpdGxlIjoiQUJPVVQiLCJhbGlhcyI6ImFib3V0IiwicGF0aCI6Ii9hYm91dCIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbXX0seyJ0aXRsZSI6IkdBTExFUlkiLCJhbGlhcyI6InN0b3JpZXMiLCJwYXRoIjoiL3N0b3JpZXMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119LHsidGl0bGUiOiJDb250YWN0IFVzIiwiYWxpYXMiOiJzdG9yZXMiLCJwYXRoIjoiL3N0b3JlcyIsImluTmF2aWdhdGlvbiI6dHJ1ZSwic3ViTmF2IjpbeyJ0aXRsZSI6IkZJTkQgVVMiLCJhbGlhcyI6InN0b3JlcyNGSU5EVVMiLCJwYXRoIjoiL3N0b3JlcyNGSU5EVVMiLCJpbk5hdmlnYXRpb24iOnRydWUsInN1Yk5hdiI6W119XX1d',
+        errors: {
+            general: 'There was an error connecting to the page.<br/> Make sure you are not offline.',
+            password: 'Incorrect name/password combination',
+            tryAgain: 'Try again'
+        },
+        NavigationAreaParams: {
+            ShowBackToHomeOnInnerPages: true,
+            NavbarSize: -1,
+            NavbarLiveHomePage: 'https://www.montanaboeredienste.co.za/',
+            BlockContainerSelector: '.dmBody',
+            NavbarSelector: '#dmNav:has(a)',
+            SubNavbarSelector: '#subnav_main'
+        },
+        hasCustomCode: false,
+        planID: 7,
+        disableTracking: false
+    };
+
+    window.Parameters.LayoutID = {};
+    window.Parameters.LayoutID[window._currentDevice] = 6;
+    window.Parameters.LayoutVariationID = {};
+    window.Parameters.LayoutVariationID[window._currentDevice] = 5;
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Injecting site-wide to the head -->
+
+
+
+<!-- End Injecting site-wide to the head -->
+
+<!-- ========= Meta Tags ========= -->
+<!-- PWA settings -->
+<script>
+    function toHash(str) {
+        var hash = 5381, i = str.length;
+        while (i) {
+            hash = hash * 33 ^ str.charCodeAt(--i)
+        }
+        return hash >>> 0
+    }
+</script>
+<script>
+    (function(global) {
+    //const cacheKey = global.cacheKey;
+    const isOffline = 'onLine' in navigator && navigator.onLine === false;
+    const hasServiceWorkerSupport = 'serviceWorker' in navigator;
+    if (isOffline) {
+        console.log('offline mode');
+    }
+    if (!hasServiceWorkerSupport) {
+        console.log('service worker is not supported');
+    }
+    if (hasServiceWorkerSupport && !isOffline) {
+        window.addEventListener('load', function() {
+            const serviceWorkerPath = '/runtime-service-worker.js?v=2';
+            navigator.serviceWorker
+                .register(serviceWorkerPath, { scope: './' })
+                .then(
+                    function(registration) {
+                        // Registration was successful
+                        console.log('ServiceWorker registration successful with scope: ', registration.scope);
+                    },
+                    function(err) {
+                        // registration failed :(
+                        console.log('ServiceWorker registration failed: ', err);
+                    }
+                )
+                .catch(function(err) {
+                    console.log(err);
+                });
+        });
+
+        // helper function to refresh the page
+        var refreshPage = (function() {
+            var refreshing;
+            return function() {
+                if (refreshing) return;
+                // prevent multiple refreshes
+                var refreshkey = 'refreshed' + location.href;
+                var prevRefresh = localStorage.getItem(refreshkey);
+                if (prevRefresh) {
+                    localStorage.removeItem(refreshkey);
+                    if (Date.now() - prevRefresh < 30000) {
+                        return; // dont go into a refresh loop
+                    }
+                }
+                refreshing = true;
+                localStorage.setItem(refreshkey, Date.now());
+                console.log('refereshing page');
+                window.location.reload();
+            };
+        })();
+
+        function messageServiceWorker(data) {
+            return new Promise(function(resolve, reject) {
+                if (navigator.serviceWorker.controller) {
+                    var worker = navigator.serviceWorker.controller;
+                    var messageChannel = new MessageChannel();
+                    messageChannel.port1.onmessage = replyHandler;
+                    worker.postMessage(data, [messageChannel.port2]);
+                    function replyHandler(event) {
+                        resolve(event.data);
+                    }
+                } else {
+                    resolve();
+                }
+            });
+        }
+    }
+})(window);
+</script>
+<!-- Add manifest -->
+<!-- End PWA settings -->
+
+
+<meta http-equiv="Content-type" content="text/html;charset=utf-8">
+<meta charset="utf-8">
+
+<link rel="canonical" href="stores.html">
+
+<meta id="view" name="viewport"
+      content=", initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=0, viewport-fit=cover"/>
+
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Contact Us
+</title>
+
+<!--Add favorites icons-->
+
+<link rel="apple-touch-icon" href="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/no-tractors-160702_1280.png"/>
+
+<link rel="icon" type="image/x-icon" href="https://irp-cdn.multiscreensite.com/2eec7337/site_favicon_16_1589053143575.ico"/>
+
+<!-- End favorite icons -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://lirp-cdn.multiscreensite.com/" crossorigin />
+
+
+<!-- Prefetch Ecwid Javascript to speed up loading -->
+<link rel="prefetch" href="https://app.multiscreenstore.com/script.js?29457303"></link>
+
+
+<!-- render the required CSS and JS in the head section -->
+<script>
+    window.SystemID = 'US_DIRECT_PRODUCTION';
+
+    if(!window.dmAPI) {
+        window.dmAPI = {
+            registerExternalRuntimeComponent: function() {
+            },
+            getCurrentDeviceType: function() {
+                return window._currentDevice;
+            }
+        };
+    }
+
+    if (!window.requestIdleCallback) {
+        window.requestIdleCallback = function (fn) {
+            setTimeout(fn, 0);
+        }
+    }
+
+    function loadCSS(link) {
+        try {
+            var urlParams = new URLSearchParams(window.location.search);
+            var noCSS = !!urlParams.get('nocss');
+            var cssTimeout = urlParams.get('cssTimeout') || 0;
+
+            if (noCSS) {
+                return;
+            }
+            requestIdleCallback(function () {
+                window.setTimeout(function () {
+                    link.onload = null;
+                    link.rel = 'stylesheet';
+                    link.type = 'text/css'
+                }, parseInt(cssTimeout, 10));
+            });
+        } catch (e) {/* Never fail - this is just a tool for measurements */}
+    }
+
+</script>
+<script>
+(function(n){"use strict";if(!n.l){n.l=function(){}}var o=loadCSS.t={};o.o=function(){var l;try{l=n.document.createElement("link").relList.supports("preload")}catch(e){l=false}return function(){return l}}();o.i=function(e){var l=e.media||"all";function enableStylesheet(){if(e.addEventListener){e.removeEventListener("load",enableStylesheet)}else if(e.attachEvent){e.detachEvent("onload",enableStylesheet)}e.setAttribute("onload",null);e.media=l}if(e.addEventListener){e.addEventListener("load",enableStylesheet)}else if(e.attachEvent){e.attachEvent("onload",enableStylesheet)}setTimeout(function(){e.rel="stylesheet";e.media="only x"});setTimeout(enableStylesheet,3e3)};o.s=function(){if(o.o()){return}var e=n.document.getElementsByTagName("link");for(var l=0;l<e.length;l++){var t=e[l];if(t.rel==="preload"&&t.getAttribute("as")==="style"&&!t.getAttribute("data-loadcss")){t.setAttribute("data-loadcss",true);o.i(t)}}};if(!o.o()){o.s();var e=n.setInterval(o.s,500);if(n.addEventListener){n.addEventListener("load",function(){o.s();n.clearInterval(e)})}else if(n.attachEvent){n.attachEvent("onload",function(){o.s();n.clearInterval(e)})}}if(typeof exports!=="undefined"){exports.l=loadCSS}else{n.l=loadCSS}})(typeof global!=="undefined"?global:this);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Google Fonts Include -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CMontserrat:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CPoppins:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CVidaloka:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic%7CSource+Sans+Pro:100,200,300,400,500,600,700,800,900,100italic,200italic,300italic,400italic,500italic,600italic,700italic,800italic,900italic&amp;subset=latin-ext&amp;display=swap"  />
+
+
+<link rel="stylesheet" type="text/css" href="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/css/css-font-package-v2.min.css" />
+
+
+
+<!-- RT CSS Include d-css-runtime-desktop-one-package-new-->
+<link rel="stylesheet" type="text/css" href="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/css/d-css-runtime-desktop-one-package-new.min.css" />
+
+<!-- End of RT CSS Include -->
+
+
+
+    
+       <link type="text/css" rel="stylesheet" href="https://irp-cdn.multiscreensite.com/WIDGET_CSS/production_1476/183f10e9a6d5b3d5becf52cd414baf54.css" id="widgetCSS" />
+    
+
+
+
+<!-- This is populated in Ajax navigation -->
+<style id="pageAdditionalWidgetsCss" type="text/css">
+</style>
+
+
+
+
+<!-- Site CSS -->
+<link type="text/css" rel="stylesheet" href="https://irp-cdn.multiscreensite.com/2eec7337/files/2eec7337_1.min.css?v=66" id="siteGlobalCss" />
+
+
+<style id="customWidgetStyle" type="text/css">.widget-5bd886 .full {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.widget-5bd886 .iconBg {
+   display: block !important;
+   width: 100px;
+}
+
+.widget-5bd886 < .iconBg {
+   width: 66px;
+}
+
+.widget-5bd886 .whatsapp-fill { /* default color */
+   fill: currentColor;
+}
+
+.widget-5bd886 .wa-btn-transparent {
+    background: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+    box-shadow: none !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.widget-5bd886 a {
+    padding: 0 !important;
+}
+
+.widget-5bd886 .green-wa {
+    flex: 1;
+    height: 80%;
+}
+
+.widget-5bd886 .green-wa img {
+    height: 100%;
+}
+
+.widget-5bd886 .wa-btns {
+    margin: 0 !important;
+}
+
+.widget-5bd886 .flex-text {
+    flex: 3;
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+    text-align: left;
+}
+    
+    .widget-5bd886 {
+    /*overflow: hidden;*/
+    margin: 10px auto;
+    width: 278px;
+}
+    
+    .widget-1f5975 .copyright {
+    font-size: 13px;
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+}
+    
+</style>
+<style id="innerPagesStyle" type="text/css">
+    
+</style>
+
+<style id="additionalGlobalCss" type="text/css">
+</style>
+
+<style id="pagestyle" type="text/css">*#dm *.dmBody div.u_1006111132{
+background-color:rgba(255,255,255,1) !important}
+*#dm *.dmBody div.u_1992608802{
+background-color:rgba(255,255,255,1) !important}
+*#dm *.dmBody div.u_1646892836 input:not([type="submit"]){
+background-color:rgba(221,221,221,0.15) !important;
+border-style:solid !important;
+border-width:0 !important}
+*#dm *.dmBody div.u_1646892836 textarea{
+background-color:rgba(221,221,221,0.15) !important;
+border-style:solid !important;
+border-width:0 !important}
+*#dm *.dmBody div.u_1646892836 select{
+background-color:rgba(221,221,221,0.15) !important;
+border-style:solid !important;
+border-width:0 !important}
+*#dm *.dmBody *.u_1646892836 *.dmformsubmit{
+float:RIGHT !important}
+*#dm *.dmBody div.u_1398623958 *.svg{
+color:rgba(0,0,0,1) !important;
+fill:rgba(0,0,0,1) !important}
+*#dm *.dmBody div.u_1992739420 *.svg{
+color:rgba(0,0,0,1) !important;
+fill:rgba(0,0,0,1) !important}
+*#dm *.dmBody div.u_1560338220 *.socialHubIcon{
+color:rgba(0,0,0,1) !important;
+border-color:rgba(0,0,0,1) !important}
+*#dm *.dmBody div.u_1886458941{
+border-right-style:solid !important;
+border-right-color:rgba(197,197,197,1) !important;
+border-right-width:1px !important}
+*#dm *.dmBody *.u_1111245338:before{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody *.u_1111245338.before{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody *.u_1111245338>*.bgExtraLayerOverlay{
+opacity:0.5 !important;
+background-color:rgb(255,255,255) !important}
+*#dm *.dmBody div.u_1111245338:before{
+background-color:rgba(0,0,0,1) !important;
+opacity:0.5 !important}
+*#dm *.dmBody div.u_1111245338.before{
+background-color:rgba(0,0,0,1) !important;
+opacity:0.5 !important}
+*#dm *.dmBody div.u_1111245338>*.bgExtraLayerOverlay{
+background-color:rgba(0,0,0,1) !important;
+opacity:0.5 !important}
+*#dm *.dmBody div.u_CONTACTUS{
+background-color:rgba(255,255,255,1) !important}
+*#dm *.dmBody div.u_FINDUS{
+background-color:rgba(255,255,255,1) !important}
+*#dm *.dmBody div.u_1970366569{
+background-repeat:no-repeat !important;
+background-image:url(https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/dark_opacity_map_3.png) !important}
+*#dm *.dmBody nav.u_1605124385{
+color:black !important}
+*#dm *.dmBody div.u_1111245338{
+background-repeat:no-repeat !important;
+background-image:url(https://irp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/photo-1527846884039-a29196edc4c5.jpg) !important}
+*#dm *.dmBody div.u_1696066102{
+background-color:rgba(255,255,255,1) !important}
+*#dm *.dmBody div.u_1889651703 *.svg{
+color:rgba(0,0,0,1) !important;
+fill:rgba(0,0,0,1) !important}
+</style>
+
+<style id="pagestyleDevice" type="text/css">*#dm *.dmBody div.u_1970366569{
+background-repeat:no-repeat !important;
+background-image:url(https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/dark_opacity_map_3-1920w.png) !important}
+*#dm *.dmBody div.u_1111245338{
+background-repeat:no-repeat !important;
+background-image:url(https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1527846884039-a29196edc4c5-1920w.jpg) !important}@media all and (min-width:1920px), all and (-webkit-min-device-pixel-ratio: 1.5), all and (min--moz-device-pixel-ratio: 1.5), all and (min-device-pixel-ratio: 1.5) {
+
+*#dm *.dmBody div.u_1970366569{
+background-repeat:no-repeat !important;
+background-image:url(https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/dark_opacity_map_3-2880w.png) !important}
+*#dm *.dmBody div.u_1111245338{
+background-repeat:no-repeat !important;
+background-image:url(https://lirp-cdn.multiscreensite.com/md/unsplash/dms3rep/multi/opt/photo-1527846884039-a29196edc4c5-2880w.jpg) !important}
+}
+*#dm *.dmBody div.u_1646892836 *.dmforminput label{
+font-size:15px !important}
+*#dm *.dmBody div.u_1104936738{
+padding-top:0 !important;
+margin-left:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody div.u_1801686318{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:calc(100% - 0px) !important;
+margin-top:17px !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1258812271{
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+padding-right:0 !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+max-width:100% !important;
+min-width:0 !important;
+text-align:center !important;
+margin-right:0 !important;
+margin-left:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important}
+*#dm *.dmBody div.u_1016011799{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+max-width:calc(100% - 0px) !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important;
+margin-right:0 !important;
+margin-left:0 !important;
+margin-top:15px !important;
+margin-bottom:8px !important}
+*#dm *.dmBody div.u_1198715117{
+padding-top:0 !important;
+margin-left:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody div.u_1091463284{
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+padding-right:0 !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+min-width:0 !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1992739420{
+width:36px !important;
+height:41px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+position:relative !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important;
+margin-top:0 !important}
+*#dm *.dmBody div.u_1398623958{
+width:36px !important;
+height:41px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+position:relative !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:auto !important;
+max-width:100% !important;
+margin-top:2px !important;
+margin-bottom:10px !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important}
+*#dm *.dmBody h2.u_1748954655{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:465.609px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:auto !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:121px !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important;
+display:block !important}
+*#dm *.dmBody div.u_1028178799{
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+padding-right:0 !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:7px !important;
+margin-bottom:0 !important;
+min-width:0 !important;
+text-align:start !important}
+*#dm *.dmBody *.u_1560338220 *.socialHubInnerDiv a:not(:last-child){
+margin-right:16px !important}
+*#dm *.dmBody *.u_1560338220 *.socialHubIcon{
+width:28px !important;
+height:28px !important;
+font-size:18.666666666666668px !important;
+line-height:28px !important}
+*#dm *.dmBody *.u_1560338220 *.socialHubIcon:after{
+width:36px !important;
+height:28px !important}
+*#dm *.dmBody div.u_1992608802{
+padding-top:70px !important;
+padding-bottom:70px !important}
+*#dm *.dmBody div.u_1560338220{
+display:block !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 80px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:224.625px !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important;
+margin-right:63.5938px !important;
+margin-left:80.9688px !important;
+margin-top:25px !important;
+margin-bottom:0 !important}
+*#dm *.dmBody div.u_1598828678{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:552px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important;
+margin-right:auto !important;
+margin-left:0 !important;
+margin-top:9px !important;
+margin-bottom:0 !important;
+display:block !important}
+*#dm *.dmBody div.u_1646892836{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:577px !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:auto !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:19px !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:start !important;
+display:block !important}
+*#dm *.dmBody h2.u_1037636473{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:465.609px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important;
+display:block !important}
+*#dm *.dmBody h1.u_1037636473{
+display:block !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:466px !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:left !important;
+margin-right:auto !important;
+margin-left:0 !important;
+margin-top:8px !important;
+margin-bottom:8px !important}
+*#dm *.dmBody h1.u_1748954655{
+display:block !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+height:auto !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important;
+margin-right:0.015625px !important;
+margin-left:0 !important;
+margin-top:59px !important;
+margin-bottom:8px !important}
+*#dm *.dmBody div.u_1614481007{
+padding-top:0 !important}
+*#dm *.dmBody div.u_1006111132{
+padding-top:0 !important;
+padding-bottom:70px !important}
+*#dm *.d-page-1526327906 DIV.dmInner{
+background-color:rgba(217,231,235,1) !important}
+*#dm *.d-page-1526327906 DIV#dmSlideRightNavRight{
+background-color:rgba(217,231,235,1) !important}
+*#dm *.dmBody div.u_1664210676{
+padding-top:0 !important;
+padding-left:0 !important}
+*#dm *.dmBody div.u_CONTACTUS{
+padding-top:70px !important;
+padding-bottom:70px !important}
+*#dm *.dmBody div.u_1301708745{
+padding-top:0 !important;
+margin-left:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody div.u_1970366569{
+padding-top:0 !important;
+margin-left:0 !important;
+padding-left:40px !important;
+padding-bottom:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:40px !important;
+margin-right:0 !important;
+background-repeat:no-repeat !important;
+background-size:cover !important;
+background-attachment:initial !important;
+background-position:50% 0 !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+max-width:100% !important;
+min-width:0 !important;
+text-align:center !important}
+*#dm *.dmBody div.u_FINDUS{
+padding-top:50px !important;
+padding-bottom:72px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+padding-left:40px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:40px !important;
+min-width:0 !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1111245338{
+background-attachment:fixed !important;
+background-size:cover !important;
+padding-top:79.5px !important;
+padding-bottom:79.5px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+padding-left:40px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:100% !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:40px !important;
+min-width:0 !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1821753234{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:calc(100% - 0px) !important;
+position:relative !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-right:274.01px !important;
+margin-left:0 !important;
+max-width:102px !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:center !important;
+display:block !important;
+height:auto !important}
+*#dm *.dmBody div.u_1014115259{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:calc(100% - 0px) !important;
+margin-top:17px !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1010816009{
+padding-top:0 !important;
+margin-left:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody div.u_1822271199{
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+padding-right:0 !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+max-width:100% !important;
+min-width:0 !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1889651703{
+width:36px !important;
+height:41px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+position:relative !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important;
+margin-right:auto !important;
+margin-left:auto !important;
+margin-top:0 !important;
+margin-bottom:10px !important}
+*#dm *.dmBody div.u_1014115259{
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:100% !important;
+position:relative !important;
+height:auto !important;
+padding-top:2px !important;
+padding-left:0 !important;
+padding-bottom:2px !important;
+margin-right:0 !important;
+margin-left:0 !important;
+max-width:calc(100% - 0px) !important;
+margin-top:17px !important;
+margin-bottom:8px !important;
+padding-right:0 !important;
+min-width:25px !important;
+text-align:left !important}
+*#dm *.dmBody div.u_1010816009{
+padding-top:0 !important;
+margin-left:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+margin-top:0 !important;
+margin-bottom:0 !important;
+padding-right:0 !important;
+margin-right:0 !important}
+*#dm *.dmBody div.u_1822271199{
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+padding-right:0 !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+width:auto !important;
+position:relative !important;
+height:auto !important;
+max-width:100% !important;
+min-width:0 !important;
+text-align:start !important}
+*#dm *.dmBody div.u_1889651703{
+width:36px !important;
+height:41px !important;
+float:none !important;
+top:0 !important;
+left:0 !important;
+position:relative !important;
+padding-top:0 !important;
+padding-left:0 !important;
+padding-bottom:0 !important;
+max-width:100% !important;
+padding-right:0 !important;
+min-width:0 !important;
+text-align:center !important;
+display:block !important;
+margin-right:auto !important;
+margin-left:auto !important;
+margin-top:0 !important;
+margin-bottom:10px !important}
+</style>
+
+
+
+
+<!--[if IE 7]><style>.fw-head.fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}</style><![endif]-->
+<!--[if IE 8]><style>.fw-head .fw-logo img{max-width: 290px;}.dm_header .logo-div img{max-width: 290px;}*#dm div.dmHeader{_height:90px;min-height:0px;}</style><![endif]-->
+
+
+
+    <style id="globalFontSizeStyle" type="text/css">.font-size-18, .size-18, .size-18 > font { font-size: 18px !important; }
+    </style>
+    <style id="pageFontSizeStyle" type="text/css">
+    </style>
+
+
+<!-- Flex Sections CSS -->
+
+
+<!-- ========= JS Section ========= -->
+
+<!-- Modernizr -->
+<script>
+    /* THIS FILE IS AUTO-GENERATED. SEE build/build-modernizr */
+
+/*! modernizr 3.5.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-passiveeventlisteners-supports-setclasses-cssclassprefix:dm- !*/
+!function(e,n,s){function o(e,n){return typeof e===n}function t(){var e,n,s,t,a,r,l;for(var c in i)if(i.hasOwnProperty(c)){if(e=[],n=i[c],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(s=0;s<n.options.aliases.length;s++)e.push(n.options.aliases[s].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)r=e[a],l=r.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),f.push((t?"":"no-")+l.join("-"))}}function a(e){var n=l.className,s=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+s+"no-js(\\s|$)");n=n.replace(o,"$1"+s+"js$2")}Modernizr._config.enableClasses&&(n+=" "+s+e.join(" "+s),c?l.className.baseVal=n:l.className=n)}var i=[],r={_version:"3.5.0",_config:{classPrefix:"dm-",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var s=this;setTimeout(function(){n(s[e])},0)},addTest:function(e,n,s){i.push({name:e,fn:n,options:s})},addAsyncTest:function(e){i.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=r,Modernizr=new Modernizr;var f=[],l=n.documentElement,c="svg"===l.nodeName.toLowerCase(),u="CSS"in e&&"supports"in e.CSS,p="supportsCSS"in e;Modernizr.addTest("supports",u||p),Modernizr.addTest("passiveeventlisteners",function(){var n=!1;try{var s=Object.defineProperty({},"passive",{get:function(){n=!0}});e.addEventListener("test",null,s)}catch(o){}return n}),t(),a(f),delete r.addTest,delete r.addAsyncTest;for(var d=0;d<Modernizr._q.length;d++)Modernizr._q[d]();e.Modernizr=Modernizr}(window,document);
+    var isWLR = true;
+
+    window.customWidgetsFunctions = {};
+    window.customWidgetsStrings = {};
+    
+    window.collections = {};
+    </script>
+<script>
+    window.customWidgetsFunctions["5bd886efb15a44fd98f083f461519ec8~186"] = function (element, data, api) {
+        
+$(element).find('a').each(function() {
+    var href = buildNewHref(cleanPhoneText(data.config.waNumber), cleanAndEncodeText(data.config.defaultMessage));
+    $(this).attr('href', href);
+    function clickHandler() {
+       window.dmsnowplow && window.dmsnowplow("Whatsapp", "Message", element, data.siteId)
+    }
+    element.off('click', clickHandler).on('click', clickHandler);
+})
+
+function cleanPhoneText(phone) {
+    return phone ? phone.replace(/[^0-9]/g, '') : "";
+}
+
+function cleanAndEncodeText(text) {
+    var returnString="";
+    if (text) {
+        returnString = text.replace(/<br>/g, '\n');
+        returnString = encodeURIComponent(returnString);
+    }
+    return returnString;
+}
+
+function buildNewHref (phone, text) {
+    var href;
+    if (data.inEditor) {
+        //editor is on touch device
+        if (window.isMobileDevice || window.parent.isTouchDevice) {
+            href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+        }
+        //etitor on desktop
+        else {
+            href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+        }
+    }
+    // not in editor - runtime
+    else {
+         if (data.device === "desktop") {
+             href = "https://web.whatsapp.com/send?phone=" + phone + "&text=" + text;
+         }
+         //on touch device
+         else {
+             href = "https://wa.me/" + ( phone ? ( phone + '?' ) : '?' ) + "text=" + text;
+         }
+    }
+    return href;
+}
+
+    };
+</script>
+<script>
+                window.collections = JSON.parse(decodeURIComponent(escape(atob("e30="))));
+</script>
+
+
+
+<script type="text/javascript">
+
+    var version = "5.9.4";
+    var build = "2020-11-03T07_51_56";
+
+    function buildEditorParent() {
+        window.isMultiScreen = true;
+        window.editorParent = {};
+        window.previewParent = {};
+        window.assetsCacheQueryParam = "?version=2020-11-03T07_51_56";
+        try {
+            var _p = window.parent;
+            if (_p && _p.document && _p.$ && _p.$.dmfw) {
+                window.editorParent = _p;
+            }
+            else if (_p.isSitePreview) {
+                window.previewParent = _p;
+            }
+        } catch (e) {
+
+        }
+    }
+
+    buildEditorParent();
+
+
+</script>
+<!-- Load jQuery -->
+<script type="text/javascript" src="https://static-cdn.multiscreensite.com/libs/jquery/2.2.4/jquery.min.js"></script>
+<!-- End Load jQuery --><script>
+    window.cookiesNotificationMarkupPreview = 'null';
+</script>
+<script>
+    var shouldMonitorImages =  false;
+    if(shouldMonitorImages) {
+        window.addEventListener('error', function(event) {
+            if(event.target && event.target.tagName === 'IMG' && event.target.src && event.target.src.includes && event.target.src.includes('multiscreensite.com')) {
+                if (!window.fetch){
+                    return;
+                }
+                try {
+                    return fetch('/_dm/s/rt/actions/log/WARN', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ data: {
+                                type: 'image failed to load',
+                                eventType: event.type,
+                                image: event.target.src,
+                                href: window.location.href
+                            } })
+                    });
+                } catch (error) {
+                    console.log(error);
+                }
+
+            }
+        }, { capture: true });
+    }
+
+</script>
+<!-- HEAD RT JS Include -->
+<script>
+    window.INSITE = window.INSITE || {};
+    window.INSITE.device = "desktop";
+    window.rtCommonProps = {};
+    rtCommonProps["rt.ajax.ajaxScriptsFix"] =true;
+    rtCommonProps["rt.pushnotifs.sslframe.encoded"] = 'aHR0cHM6Ly97c3ViZG9tYWlufS5wdXNoLW5vdGlmcy5jb20=';
+    rtCommonProps["facebook.accessToken"] = '126515034112906|8vv7JhnEegS8qz43fIOZjxGZReA';
+    rtCommonProps["performance.tabletPreview.removeScroll"] = 'false';
+    rtCommonProps["feature.flag.contactUsNewForm"] = 'true';
+    rtCommonProps["inlineEditGrid.snap"] =true;
+    rtCommonProps["popup.insite.cookie.ttl"] = '0.5';
+    rtCommonProps["rt.pushnotifs.force.button"] =true;
+    rtCommonProps["google.places.key"] = 'AIzaSyBAwUOqPUB1CU31yDztoZYaUE7sPv4ktEI';
+    rtCommonProps["common.mapbox.token"] = 'pk.eyJ1IjoiZGFubnliMTIzIiwiYSI6ImNqMGljZ256dzAwMDAycXBkdWxwbDgzeXYifQ.Ck5P-0NKPVKAZ6SH98gxxw';
+    rtCommonProps["common.mapbox.js.override"] =false;
+    rtCommonProps["common.opencage.token"] = '319e14f32bcce967ba55cd263478796d';
+    rtCommonProps["common.here.appId"] = 'iYvDjIQ2quyEu0rg0hLo';
+    rtCommonProps["common.here.appCode"] = '1hcIxLJcbybmtBYTD9Z1UA';
+    rtCommonProps["isCoverage.test"] =false;
+    rtCommonProps["ecommerce.ecwid.script"] = 'https://app.multiscreenstore.com/script.js';
+    rtCommonProps["feature.flag.mappy.kml"] =false;
+    rtCommonProps["common.resources.dist.cdn"]=true;
+    rtCommonProps["common.build.dist.folder"]='production/1476';
+    rtCommonProps["common.resources.cdn.host"]='https://static-cdn.multiscreensite.com';
+    rtCommonProps["common.resources.folder"]='https://static-cdn.multiscreensite.com/mnlt/production/1476';
+    rtCommonProps["import.images.storage.useImageCDN"]=true;
+    rtCommonProps["feature.flag.runtime.photoswipe.fix"]=true;
+    rtCommonProps["feature.flag.runtime.newAnimation.enabled"]=true;
+    rtCommonProps["feature.flag.animations.allowInMobile"]=true;
+    rtCommonProps["feature.flag.videoRefresh.refactor"]=true;
+    
+    rtCommonProps['common.mapsProvider'] = 'mapbox';
+    rtCommonProps['common.mapsProvider.version'] = '0.52.0';
+    rtCommonProps['common.geocodeProvider'] = 'here';
+    rtCommonProps['common.map.defaults.radiusSize'] = '1500';
+    rtCommonProps['common.map.defaults.radiusBg'] = 'rgba(255, 255, 255, 0.4)';
+    rtCommonProps['common.map.defaults.strokeColor'] = 'rgba(255, 255, 255, 1)';
+    rtCommonProps['common.map.defaults.strokeSize'] = '2';
+    rtCommonProps['server.for.resources'] = '';
+    rtCommonProps['feature.flag.lazy.widgets'] = true;
+    rtCommonProps['editor.infra.noPrefixedChanges'] = true;
+    rtCommonProps['feature.flag.single.wow'] = false;
+    rtCommonProps['feature.flag.mark.anchors']= true;
+    rtCommonProps['feature.flag.runtime.miniheader.chromefix'] = false;
+    rtCommonProps['captcha.public.key'] = '6LffcBsUAAAAAMU-MYacU-6QHY4iDtUEYv_Ppwlz';
+    rtCommonProps['captcha.invisible.public.key'] = '6LeiWB8UAAAAAHYnVJM7_-7ap6bXCUNGiv7bBPME';
+    rtCommonProps["images.sizes.small"]=160;
+    rtCommonProps["images.sizes.mobile"]=640;
+    rtCommonProps["images.sizes.tablet"]=1280;
+    rtCommonProps["images.sizes.desktop"]=1920;
+    rtCommonProps["modules.resources.cdn"]=true;
+    rtCommonProps["import.images.storage.imageCDN"]='https://lirp-cdn.multiscreensite.com/';
+    rtCommonProps["facebook.api.version"]='7.0';
+    rtCommonProps["custom.widget.new.runtime.enabled"]=true;
+
+</script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/scripts/d-js-runtime-one-package.min.js" ></script>
+<!-- End of HEAD RT JS Include -->
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-package.min.js" ></script>
+<script src="https://static-cdn.multiscreensite.com/mnlt/production/1476/_dm/s/rt/dist/scripts/d-js-one-runtime-layouts-desktop.min.js" ></script>
+<script>jQuery.DM.updateWidthAndHeight();
+$(window).resize(function () {
+    
+});
+$(window).bind("orientationchange", function (e) {
+    $.layoutManager.initLayout();
+    
+});
+$(document).resize(function () {
+    
+});
+</script>
+
+
+
+
+
+
+<!-- End render the required css and JS in the head section -->
+
+
+
+
+
+
+
+
+
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:image" content="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/no-tractors-160702_1280-1920w.png"/>
+  <meta property="og:image" content="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/no-tractors-160702_1280-1920w.png"/>
+
+
+
+
+
+
+<!-- SYS- VVNfRElSRUNUX1BST0RVQ1RJT04= -->
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body id="dmRoot"  class="supportsFontIcons supportsFontIcons dmRoot dmDesktopBody fix-mobile-scrolling dmResellerSite mac dmLargeBody " style="padding:0;margin:0;"
+            >
+        <div id="disabledImageZone" style="display:none;z-index:-1">
+            <style type="text/css">#imageZone {
+                    position: absolute;
+                    margin: auto;
+                }
+
+                .coloumns {
+                    border-radius: 3px;
+                    background-color: rgb(249, 152, 13); /*border:1px solid #999;*/
+                    height: 18px;
+                    width: 6px;
+                    -webkit-animation-name: loader;
+                    -webkit-animation-duration: 1s;
+                    -webkit-animation-iteration-count: infinite;
+                    -webkit-animation-direction: linear;
+                    -moz-animation-name: loader;
+                    -moz-animation-duration: 1s;
+                    -moz-animation-iteration-count: infinite;
+                    -moz-animation-direction: linear;
+                    opacity: .25;
+                    -webkit-transform: scale(0.7);
+                    -webkit-transform-origin: 50% 180%;
+                    -moz-transform: scale(0.7);
+                    -moz-transform-origin: 50% 180%;
+                    position: absolute;
+                }
+
+                #coloumn1 {
+                    -webkit-transform: rotate(0deg);
+                    -webkit-animation-delay: -.914s;
+                    -moz-transform: rotate(0deg);
+                    -moz-animation-delay: -.914s;
+                }
+
+                #coloumn2 {
+                    -webkit-transform: rotate(30deg);
+                    -webkit-animation-delay: -.831s;
+                    -moz-transform: rotate(30deg);
+                    -moz-animation-delay: -.831s;
+                }
+
+                #coloumn3 {
+                    -webkit-transform: rotate(60deg);
+                    -webkit-animation-delay: -.747s;
+                    -moz-transform: rotate(60deg);
+                    -moz-animation-delay: -.747s;
+                }
+
+                #coloumn4 {
+                    -webkit-transform: rotate(90deg);
+                    -webkit-animation-delay: -.664s;
+                    -moz-transform: rotate(90deg);
+                    -moz-animation-delay: -.664s;
+                }
+
+                #coloumn5 {
+                    -webkit-transform: rotate(120deg);
+                    -webkit-animation-delay: -.581s;
+                    -moz-transform: rotate(120deg);
+                    -moz-animation-delay: -.581s;
+                }
+
+                #coloumn6 {
+                    -webkit-transform: rotate(150deg);
+                    -webkit-animation-delay: -.498s;
+                    -moz-transform: rotate(150deg);
+                    -moz-animation-delay: -.498s;
+                }
+
+                #coloumn7 {
+                    -webkit-transform: rotate(180deg);
+                    -webkit-animation-delay: -.415s;
+                    -moz-transform: rotate(180deg);
+                    -moz-animation-delay: -.415s;
+                }
+
+                #coloumn8 {
+                    -webkit-transform: rotate(210deg);
+                    -webkit-animation-delay: -.332s;
+                    -moz-transform: rotate(210deg);
+                    -moz-animation-delay: -.332s;
+                }
+
+                #coloumn9 {
+                    -webkit-transform: rotate(240deg);
+                    -webkit-animation-delay: -.249s;
+                    -moz-transform: rotate(240deg);
+                    -moz-animation-delay: -.249s;
+                }
+
+                #coloumn10 {
+                    -webkit-transform: rotate(270deg);
+                    -webkit-animation-delay: -.166s;
+                    -moz-transform: rotate(270deg);
+                    -moz-animation-delay: -.166s;
+                }
+
+                #coloumn11 {
+                    -webkit-transform: rotate(300deg);
+                    -webkit-animation-delay: -.083s;
+                    -moz-transform: rotate(300deg);
+                    -moz-animation-delay: -.083s;
+                }
+
+                #coloumn12 {
+                    -webkit-transform: rotate(330deg);
+                    -moz-transform: rotate(330deg);
+                }
+
+                @-webkit-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+
+                @-moz-keyframes loader {
+                    0% {
+                        opacity: 1;
+                    }
+                    100% {
+                        opacity: .25;
+                    }
+                }
+            </style>
+            <div id='imageZone'>
+                <div id='coloumn1' class='coloumns'></div>
+                <div id='coloumn2' class='coloumns'></div>
+                <div id='coloumn3' class='coloumns'></div>
+                <div id='coloumn4' class='coloumns'></div>
+                <div id='coloumn5' class='coloumns'></div>
+                <div id='coloumn6' class='coloumns'></div>
+                <div id='coloumn7' class='coloumns'></div>
+                <div id='coloumn8' class='coloumns'></div>
+                <div id='coloumn9' class='coloumns'></div>
+                <div id='coloumn10' class='coloumns'></div>
+                <div id='coloumn11' class='coloumns'></div>
+                <div id='coloumn12' class='coloumns'></div>
+            </div>
+        </div>
+
+        <!-- ========= Site Content ========= -->
+        <div id="dm" class='dmwr'>
+            
+            <div class="dm_wrapper standard-var5 widgetStyle-3 standard">
+                 <div dmwrapped="true" id="1512067324"> <div dmtemplateid="StandardLayoutMultiD" class="standardHeaderLayout dm-bfs dm-layout-sec hasAnimations hasStickyHeader inMiniHeaderMode rows-1200 hamburger-reverse dmPageBody d-page-1526327906 dmFreeHeader" id="dm-outer-wrapper" data-page-class="1526327906" data-buttonstyle="BORDER_SHORT" data-soch="true" data-background-size="cover" data-background-attachment="fixed" data-background-repeat="no-repeat" data-background-position="50% 0%" data-background-hide-inner="true" data-background-fullbleed="false" data-background-parallax-selector=".dmSectionParallex" data-background-parallax-speed="0.2"> <div id="dmStyle_outerContainer" class="dmOuter"> <div id="dmStyle_innerContainer" class="dmInner"> <div class="dmLayoutWrapper standard-var dmStandardDesktop"> <ul class="dmn dmLayoutNav hiddenNavPlaceHolder navPlaceHolder dmDisplay_None"></ul> 
+ <div> <div id="iscrollBody"> <div id="site_content"> <div class="dmHeaderContainer fHeader d-header-wrapper"> <div id="hcontainer" class="u_hcontainer dmHeader p_hfcontainer" freeheader="true" headerlayout="b58ba5b5703b4cd7b5f5f7951565dc87===horizontal-layout-5" data-scrollable-target="body" data-scrollable-target-threshold="1" data-scroll-responder-id="1" preserve-sticky-header="true" logo-size-target="77%" layout="f014fc9487554eb885e18628ee6309e9===header" mini-header-show-only-navigation-row="true"> <div dm:templateorder="85" class="dmHeaderResp dmHeaderStack noSwitch" id="1709005236"> <div class="dmRespRow dmDefaultListContentRow u_1592221801 fullBleedChanged fullBleedMode" style="text-align:center" id="1592221801"> <div class="dmRespColsWrapper" id="1272384545"> <div class="u_1602432589 small-12 dmRespCol large-3 medium-3" id="1602432589"> <div class="u_1505251491 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1505251491" data-element-type="image"> <a href="index.html" id="1039659104"><img src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-09+at+21.40.18-140w.png" id="1661378420" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-09+at+21.40.18.png" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+</div> 
+ <div class="u_1740290437 dmRespCol small-12 large-5 medium-5" id="1740290437"> <span id="1936888443"></span> 
+ <nav class="u_1186044394 effect-bottom2 main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="horizontal_nav_layout_1" layout-sub="submenu_horizontal_1" data-show-vertical-sub-items="HOVER" id="1186044394" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-nav-structure="HORIZONTAL" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="false"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item  dmUDNavigationItem_00  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         HOME
+        
+                " data-auto&#x3d;page-text-style="">HOME<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="shop.html" class="unifiednav__item  dmUDNavigationItem_010101340226  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         SHOP
+        
+                " data-auto&#x3d;page-text-style="">SHOP<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="about.html" class="unifiednav__item  dmUDNavigationItem_01010156360  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         ABOUT
+        
+                " data-auto&#x3d;page-text-style="">ABOUT<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stories.html" class="unifiednav__item  dmUDNavigationItem_010101579104  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         GALLERY
+        
+                " data-auto&#x3d;page-text-style="">GALLERY<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stores.html" class="unifiednav__item  dmNavItemSelected  dmUDNavigationItem_010101662264  unifiednav__item_has-sub-nav" target="" data-target-page-alias="" data-auto&#x3d;selected-page=""> <span class="nav-item-text " data-link-text="
+                  
+         Contact Us
+        
+                " data-auto&#x3d;page-text-style="">Contact Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+ <ul class="unifiednav__container unifiednav__container_sub-nav" data-depth="0" data-auto&#x3d;sub-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="#FINDUS" class="unifiednav__item  dmUDNavigationItem_010101375889  " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                      
+           FIND US
+          
+                    " data-auto&#x3d;page-text-style="">FIND US<span class="icon icon-angle-right"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="u_1197067183 dmRespCol small-12 large-3 medium-3" id="1197067183"> <div class="u_1056299044 widget-5bd886 dmCustomWidget" data-lazy-load="" id="1056299044" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="5bd886efb15a44fd98f083f461519ec8" data-widget-version="186" data-widget-config="eyJ3YU51bWJlciI6IisyNzY2MjI2NzQwNiIsImJ0blRleHQiOiIgV2hhdHNBcHAgMDY2IDIyNiA3NDA2IiwiZGVmYXVsdE1lc3NhZ2UiOiIiLCJhbHQiOiJNZXNzYWdlIHVzIG9uIFdoYXRzQXBwIiwid2FMYXlvdXQiOiJ0cmFuc3BhcmVudCJ9"> <a data-display-type="block" class="dmWidget  wa-btns default wa-btn-transparent align-center full" target="_blank" data-buttonstyle="FLAT_ROUND_ICON"> <div class="green-wa"><img src="https://dd-cdn.multiscreensite.com/editor/whatsApp/svg-whatsapp.svg" alt="Message us on WhatsApp" onerror="handleImageLoadError(this)"/></div> 
+ <span class="text flex-text" style="color:black">WhatsApp 066 226 7406</span> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1064460770 dmRespCol small-12 large-1 medium-1" id="1064460770"> <div class="u_1964859585 dmStoreCart" data-element-type="ec_store_cart" id="1964859585"> <span class="cartIcon dm-icon-shopping-cart ecwid" id="1246563518"> <span class="cartItems" id="1994636940">0</span> 
+</span> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1451124529 dmRespRow fullBleedChanged fullBleedMode" style="text-align: center;" id="1451124529"> <div class="dmRespColsWrapper" id="1869292564"> <div class="u_1046040333 dmRespCol small-12 medium-6 large-6" id="1046040333"> <span id="1206231395"></span> 
+ <h6 class="u_1286425499 dmNewParagraph" data-element-type="paragraph" id="1286425499" style="text-align: center; transition: none 0s ease 0s; display: block;" data-uialign="left"><font color="#ffffff"><span style="font-weight: 400;" class="lh-1 font-size-18">&nbsp; &nbsp; Montana Boeredienste</span></font></h6></div> 
+ <div class="u_1358832567 dmRespCol small-12 medium-6 large-6" id="1358832567"> <span id="1827838036"></span> 
+ <div class="u_1781749339 dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1781749339" style="transition: opacity 1s ease-in-out 0s;"><font style="color: rgb(255, 255, 255);"><a href="faq.html" runtime_url="/faq" style="color: rgb(255, 255, 255); text-decoration: none;"><b>FAQ</b></a></font></div></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="stickyHeaderSpacer" id="stickyHeaderSpacer" data-new="true"></div> 
+ <div class="dmRespRow dmRespRowStable dmRespRowNoPadding dmPageTitleRow "> <div class="dmRespColsWrapper"> <div class="large-12 dmRespCol"> <div id="innerBar" class="innerBar lineInnerBar dmDisplay_None"> <div class="titleLine display_None"><hr/></div> 
+<!-- Page title is hidden in css for new responsive sites. It is left here only so we don't break old sites. Don't copy it to new layouts --> <div id="pageTitleText"> <div class="innerPageTitle">Contact Us</div> 
+</div> 
+ <div class="titleLine display_None"><hr/></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div dmwrapped="true" id="1512067324" class="dmBody u_dmStyle_template_stores"> <div id="allWrapper" class="allWrapper"> <div id="dm_content" class="dmContent"> <div dm:templateorder="1" class="dmDefaultRespTmpl" id="1526327906"> <div class="innerPageTmplBox dmDefaultPage  dmRespRowsWrapper" id="1040752820"> <div class="u_1111245338 dmRespRow dmSectionParallaxNew hasBackgroundOverlay" id="1111245338"> <div class="dmRespColsWrapper" id="1864471443"> <div class="dmRespCol large-12 medium-12 small-12" id="1971390393"> <h1 class="u_1037636473 dmNewParagraph" data-element-type="paragraph" id="1037636473" style="transition: none 0s ease 0s;" data-uialign="left"><font style="color: rgb(255, 255, 255);">Contact us</font></h1></div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_CONTACTUS" id="CONTACTUS" data-anchor="CONTACT US"> <div class="dmRespColsWrapper" id="1550869567"> <div class="u_1886458941 dmRespCol small-12 large-7 medium-7" id="1886458941"> <div class="u_1598828678 dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1598828678" data-uialign="left"><div><span style="font-weight: 300;">We&rsquo;d love to hear from you.&nbsp;<span style="font-weight: inherit;">Choose the most convenient method and we&rsquo;ll get back to you as soon as we can.</span></span><span style=""></span></div></div> <div class="u_1646892836 dmform default" preserve_css="true" data-element-type="dContactUsRespId" id="1646892836" data-layout="layout-2"> <h3 class="dmform-title dmwidget-title" id="1518758424" hide="true">Contact Us</h3> 
+ <div class="dmform-wrapper" preserve_css="true" id="1371633858" captcha-lang="en"> <form method="post" class="dmRespDesignRow" locale="ENGLISH" id="1523173508"> <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1095473741"> <label for="dmform-0" id="1247378993">Name:</label> 
+<input type="text" class="" name="dmform-0" id="1947666282"/><input type="hidden" name="label-dmform-0" value="Name" id="1729007592"/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1676344107"> <label for="dmform-1" id="1035776480">Email:</label> 
+<input type="email" class="" name="dmform-1" id="1842585057"/><input type="hidden" name="label-dmform-1" value="Email" id="1139693562"/></div> 
+ <div class="dmforminput required  small-12 dmRespDesignCol medium-12 large-12" id="1108879658"> <label for="dmform-2" id="1842662486">Phone:</label> 
+<input type="tel" class="" name="dmform-2" id="1468143855"/><input type="hidden" name="label-dmform-2" value="Phone" id="1708501394"/></div> 
+ <div class="dmforminput large-12 medium-12 dmRespDesignCol small-12" id="1350440952"> <label for="dmform-3" id="1894290062">Message:</label> 
+ <textarea name="dmform-3" id="1424874069"></textarea> 
+<input type="hidden" name="label-dmform-3" value="Message" id="1960465593"/></div> 
+ <span id="1350440952_clear" class="dmWidgetClear"></span> 
+ <span id="1350440952_clear_clear" class="dmWidgetClear"></span> 
+ <div class="dmformsubmit dmWidget R" preserve_css="true" id="1032548607"><input class="" name="submit" type="submit" value="Send Message" id="1900233984"/></div> 
+<input name="dmformsendto" type="hidden" value="O0wrseIfFLubNdY3/rDpUppXlOXKlLPpR0oE95Bh45eSyhK/jidxUS01FjZ+xL4qCLujZjzGSuQ=" preserve_css="true" id="1453640134" data-dec="true"/><input class="dmActionInput" type="hidden" name="action" value="/_dm/s/rt/widgets/dmform.submit.jsp" id="1170908921"/><input name="dmformsubject" type="hidden" value="Form Message" preserve_css="true" id="1333545310"/></form> 
+</div> 
+ <div class="dmform-success" style="display:none" preserve_css="true" id="1982949960">Thank you for contacting us.<br id="1778213707"/>We will get back to you as soon as possible.</div> 
+ <div class="dmform-error" style="display:none" preserve_css="true" id="1831516879">Oops, there was an error sending your message.<br id="1010500965"/>Please try again later.</div> 
+</div> 
+</div> 
+ <div class="u_1664210676 dmRespCol small-12 large-5 medium-5" id="1664210676"> <div class="u_1028178799 dmRespRow" id="1028178799"> <div class="dmRespColsWrapper" id="1938656512"> <div class="u_1198715117 dmRespCol small-12 large-3 medium-3" id="1198715117"> <div class="u_1992739420 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1992739420"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1642085692" class="svg u_1642085692" data-icon-name="li-envelope"> <path d="M17.8,28.2v43.6h64.4V28.2H17.8z M77.7,30.3L50,48.8L22.3,30.3H77.7z M19.9,69.7V31.2L50,51.2l30.1-20.1v38.5H19.9z" id="1992160149"></path> 
+</svg> 
+</div> 
+</div> 
+ <div class="u_1017131626 dmRespCol small-12 large-9 medium-9" id="1017131626"> <div class="u_1016011799 dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1016011799" data-uialign="right" style="transition: opacity 1s ease-in-out 0s;"><div>riaankferreira@gmail.com</div></div></div> 
+</div> 
+</div> 
+ <div class="u_1822271199 dmRespRow" id="1822271199"> <div class="dmRespColsWrapper" id="1009095540"> <div class="u_1010816009 dmRespCol small-12 large-3 medium-3" id="1010816009"> <div class="u_1889651703 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1889651703"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1764199577" class="svg u_1764199577" data-icon-name="business_headphones_mic"> <path d="M92.36,56.19a11,11,0,0,0-7.2-10.34,35.16,35.16,0,0,0-70.32,0,11,11,0,0,0,3.83,21.37H20a4.09,4.09,0,0,0,8.17-.16V45.32A4.09,4.09,0,0,0,20,45.16h-1.3A11,11,0,0,0,17,45.3a33,33,0,0,1,66,0,11,11,0,0,0-1.67-.14H80a4.09,4.09,0,0,0-8.17.16V67.07a4.1,4.1,0,0,0,4.09,4.09,4,4,0,0,0,1.89-.49A16.85,16.85,0,0,1,61.32,86.56a4.18,4.18,0,0,0,.56-2.07,4.24,4.24,0,0,0-4.24-4.24H53.82a4.24,4.24,0,0,0,0,8.47H61a19,19,0,0,0,19-19v-2.5h1.29A11.05,11.05,0,0,0,92.36,56.19ZM24.06,43.38A1.94,1.94,0,0,1,26,45.32V67.07a1.94,1.94,0,0,1-3.88,0V45.32A1.94,1.94,0,0,1,24.06,43.38ZM20,47.31V65.08H18.68a8.88,8.88,0,0,1,0-17.77Zm37.5,39.27H53.82a2.08,2.08,0,0,1,0-4.17h3.83a2.08,2.08,0,0,1,0,4.17ZM75.94,69A1.94,1.94,0,0,1,74,67.07V45.32a1.94,1.94,0,1,1,3.88,0V67.07A1.94,1.94,0,0,1,75.94,69Zm5.38-3.93H80V47.31h1.29a8.88,8.88,0,1,1,0,17.77Z" id="1012936738"></path> 
+ <path d="M43.59,57.27a1.08,1.08,0,0,0,0-2.15H41.4a1.08,1.08,0,0,0,0,2.15Z" id="1793405911"></path> 
+ <path d="M51.1,57.27a1.08,1.08,0,0,0,0-2.15H48.9a1.08,1.08,0,0,0,0,2.15Z" id="1076471761"></path> 
+ <path d="M58.6,57.27a1.08,1.08,0,0,0,0-2.15h-2.2a1.08,1.08,0,0,0,0,2.15Z" id="1438783481"></path> 
+</svg> 
+</div> 
+</div> 
+ <div class="u_1307205151 dmRespCol small-12 large-9 medium-9" id="1307205151"> <div class="u_1014115259 dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1014115259" data-uialign="right" style="transition: none 0s ease 0s; display: block;"><div>066 226 7406 Office</div></div></div> 
+</div> 
+</div> 
+ <div class="u_1091463284 dmRespRow" id="1091463284"> <div class="dmRespColsWrapper" id="1634665202"> <div class="u_1097592691 dmRespCol small-12 medium-12 large-12" id="1097592691"> <div class="u_1801686318 dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1801686318" data-uialign="center" style="transition: none 0s ease 0s; display: block;"><div style="text-align: center;">082 567 7920</div></div></div> 
+</div> 
+</div> 
+ <div class="u_1258812271 dmRespRow" id="1258812271"> <div class="dmRespColsWrapper" id="1025253630"> <div class="u_1104936738 dmRespCol small-12 large-3 medium-3" id="1104936738"> <div class="u_1398623958 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1398623958"> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 70 70" id="1059032717" class="svg u_1059032717" data-icon-name="wp-location_pin_thin"> <g id="1168482883"> <path d="M35,10c-9.4,0-17,7.6-17,17c0,4.1,1.5,8,4.1,11.1l0.1,0.1c4.6,5.3,7.9,10.8,9.9,16.4l1,3.7l0,0.1c0.3,1.1,1,1.6,1.9,1.6
+		s1.6-0.5,1.9-1.6l1-3.8c1.9-5.6,5.3-11.2,9.9-16.4l0.1-0.1C50.5,35,52,31.1,52,27C52,17.6,44.4,10,35,10z M46.4,36.8L46.4,36.8
+		C41.5,42.3,38.1,48.1,36,54l0,0.1c0,0-1,3.7-1,3.7c0,0-0.1-0.2-0.1-0.2L34,54l0-0.1c-2-5.8-5.5-11.5-10.2-17l-0.1-0.1
+		C21.3,34.1,20,30.6,20,27c0-8.3,6.7-15,15-15s15,6.7,15,15C50,30.6,48.7,34.1,46.4,36.8z" id="1106474316"></path> 
+ <path d="M35,34c-3.9,0-7-3.1-7-7s3.1-7,7-7c3.9,0,7,3.1,7,7S38.9,34,35,34z M35,22c-2.8,0-5,2.2-5,5s2.2,5,5,5c2.8,0,5-2.2,5-5
+		S37.8,22,35,22z" id="1175059775"></path> 
+</g> 
+</svg> 
+</div> 
+</div> 
+ <div class="u_1754924499 dmRespCol small-12 large-9 medium-9" id="1754924499"> <div class="u_1611009217 dmNewParagraph" data-dmtmpl="true" data-element-type="paragraph" id="1611009217" data-uialign="right" style="transition: opacity 1s ease-in-out 0s;"><div>Next to the N10 Between Golden Valley and Cookhouse, Eastern Cape, South Africa 5820</div></div></div> 
+</div> 
+</div> 
+ <div class="u_1560338220 align-center text-align-center dmSocialHub" id="1560338220" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1970366569 dmRespRow dmDefaultListContentRow dmSectionNoParallax" style="text-align:center" id="1970366569"> <div class="dmRespColsWrapper" id="1002884801"> <div class="u_1260809471 dmRespCol small-12 large-10 medium-10" id="1260809471"> <h1 class="u_1748954655 dmNewParagraph" data-element-type="paragraph" id="1748954655" style="transition: none 0s ease 0s;" data-uialign="left">Find us</h1></div> 
+ <div class="u_1301708745 small-12 dmRespCol large-2 medium-2" id="1301708745"> <div class="u_1821753234 imageWidget align-center" editablewidget="true" data-element-type="image" data-widget-type="image" id="1821753234"><img src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/no-tractors-160702_1280-320w.png" id="1291069050" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/no-tractors-160702_1280.png" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_FINDUS dmRespRow" id="FINDUS" data-anchor="FIND US"> <div class="dmRespColsWrapper" id="1836136777"> <div class="u_1614481007 dmRespCol small-12 medium-12 large-12" id="1614481007"> <div class="default dmDefaultGradient align-center inlineMap" data-type="inlineMap" data-lat="-32.80882" data-lng="25.79373" data-address="1570 Broadway New York NY United States" data-height="" data-msid="" data-mapurl="" data-lang="en" data-color-scheme="" data-zoom="13" data-layout="" data-popup-display="" data-popup-show="false" data-popup-title="" data-popup-title-visible="false" data-popup-description="" data-popup-description-visible="false" id="1931140736" dmle_extension="mapextension" data-element-type="mapextension" modedesktop="map" modemobile="map" addresstodisplay="Cookhouse, Eastern Cape, South Africa 5820" geocompleteaddress="" data-popup-display-desktop="" data-popup-display-mobile="" data-display-type="block" dmmapsource="dm" modetablet="map" wr="true" icon="true" surround="true" adwords="" icon-name="icon-map-marker" business="Montana Boeredienste" provider="mapbox" lon="25.79373" lat="-32.80882" zoom="13"> <div class="mapContainer" style="height: 100%; width: 100%; overflow: hidden; z-index: 0;"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmFooterContainer"> <div id="fcontainer" class="u_fcontainer f_hcontainer dmFooter p_hfcontainer"> <div dm:templateorder="250" class="dmFooterResp generalFooter" id="1943048428"> <div class="dmRespRow u_1958937570" id="1958937570"> <div class="dmRespColsWrapper" id="1689624585"> <div class="dmRespCol small-12 large-3 medium-3 u_1752967300" id="1752967300"> <div class="dmRespRow u_1620741786" id="1620741786" mode="2"> <div class="dmRespColsWrapper" id="1977515514"> <div class="u_1355125337 dmRespCol large-4 medium-4 small-6" id="1355125337"> <div class="u_1507280280 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1507280280" data-layout="graphic-style-1"> <a id="1505639451" class=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1702840187" class="svg u_1702840187" data-icon-custom="true" data-icon-name="open-lockArtboard 2.svg"> <title id="1235471440">open-lockArtboard 2</title> 
+ <g id="1511979140"> <path d="M22.27,93.24c-1.43,0-1.84-.36-1.84-1.82q.08-23.67,0-47.33c0-1.54.44-1.91,1.93-1.91,14.14.06,28.27,0,42.4,0,.49,0,1,0,1.47,0,.66,0,1-.21,1-.94-.19-5.53.52-11.1-.41-16.59-1.51-9-11.64-15.5-20.42-13.18-7.31,1.93-12,6.49-13.26,14.11-.16.93-.5,1.36-1.53,1.3-3.5-.18-3.36.87-2.59-3.33A14.17,14.17,0,0,1,29.44,22C32.29,12.27,42.66,5.52,52.58,6.94c10.91,1.58,19,10.46,19,21,0,2.8,0,5.6,0,8.4,0,1.88-.63,4.38.32,5.48,1.1,1.26,3.68.41,5.6.37,1.53,0,2.08.29,2.07,2q-.1,23.57,0,47.15c0,1.51-.39,2-1.92,1.94-9.14-.08-18.27,0-27.41,0C40.91,93.21,31.59,93.18,22.27,93.24Zm51-4.43c1.47,0,1.8-.45,1.8-1.85q-.07-19.27,0-38.56c0-1.4-.32-1.88-1.81-1.87q-23.39.07-46.79,0c-1.44,0-1.67.48-1.67,1.78,0,12.91.06,25.83,0,38.74,0,1.55.54,1.76,1.87,1.75,7.8,0,15.6,0,23.4,0S65.52,88.73,73.26,88.81Z" id="1252620011"></path> 
+</g> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1845284279 dmRespCol large-8 medium-8 small-6" id="1845284279"> <h5 class="u_1618474065 dmNewParagraph" data-element-type="paragraph" id="1618474065" style="transition: none 0s ease 0s; display: block;" data-uialign="right"><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);">Secure payment</font></span><br/></h5></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3 u_1607474409" id="1607474409"> <div class="dmRespRow u_1661640469" id="1661640469" mode="2"> <div class="dmRespColsWrapper" id="1517248526"> <div class="u_1586201846 dmRespCol large-4 medium-4 small-6" id="1586201846"> <div class="u_1649750257 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1649750257" data-layout="graphic-style-1"> <a id="1713535343" class=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1625964014" class="svg u_1625964014" data-icon-name="business_headphones_mic"> <path d="M92.36,56.19a11,11,0,0,0-7.2-10.34,35.16,35.16,0,0,0-70.32,0,11,11,0,0,0,3.83,21.37H20a4.09,4.09,0,0,0,8.17-.16V45.32A4.09,4.09,0,0,0,20,45.16h-1.3A11,11,0,0,0,17,45.3a33,33,0,0,1,66,0,11,11,0,0,0-1.67-.14H80a4.09,4.09,0,0,0-8.17.16V67.07a4.1,4.1,0,0,0,4.09,4.09,4,4,0,0,0,1.89-.49A16.85,16.85,0,0,1,61.32,86.56a4.18,4.18,0,0,0,.56-2.07,4.24,4.24,0,0,0-4.24-4.24H53.82a4.24,4.24,0,0,0,0,8.47H61a19,19,0,0,0,19-19v-2.5h1.29A11.05,11.05,0,0,0,92.36,56.19ZM24.06,43.38A1.94,1.94,0,0,1,26,45.32V67.07a1.94,1.94,0,0,1-3.88,0V45.32A1.94,1.94,0,0,1,24.06,43.38ZM20,47.31V65.08H18.68a8.88,8.88,0,0,1,0-17.77Zm37.5,39.27H53.82a2.08,2.08,0,0,1,0-4.17h3.83a2.08,2.08,0,0,1,0,4.17ZM75.94,69A1.94,1.94,0,0,1,74,67.07V45.32a1.94,1.94,0,1,1,3.88,0V67.07A1.94,1.94,0,0,1,75.94,69Zm5.38-3.93H80V47.31h1.29a8.88,8.88,0,1,1,0,17.77Z" id="1899764819"></path> 
+ <path d="M43.59,57.27a1.08,1.08,0,0,0,0-2.15H41.4a1.08,1.08,0,0,0,0,2.15Z" id="1807125730"></path> 
+ <path d="M51.1,57.27a1.08,1.08,0,0,0,0-2.15H48.9a1.08,1.08,0,0,0,0,2.15Z" id="1408565079"></path> 
+ <path d="M58.6,57.27a1.08,1.08,0,0,0,0-2.15h-2.2a1.08,1.08,0,0,0,0,2.15Z" id="1229674337"></path> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1632344745 dmRespCol large-8 medium-8 small-6" id="1632344745"> <h5 class="u_1678032172 dmNewParagraph" data-element-type="paragraph" id="1678032172" style="transition: none 0s ease 0s; display: block;" data-uialign="right"><font color="#ffffff"><span style="font-weight: 300;">Customer support</span></font></h5></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3 u_1438430955" id="1438430955"> <div class="dmRespRow u_1961522203" id="1961522203" mode="2"> <div class="dmRespColsWrapper" id="1476598441"> <div class="u_1417971866 dmRespCol large-4 medium-4 small-6" id="1417971866"> <div class="u_1646798480 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1646798480" data-layout="graphic-style-1"> <a id="1457978107" class=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1971153994" class="svg u_1971153994" data-icon-name="transportation_truck_clock"> <path d="M86.52,56.88c0-.24-.3-5.94-2.86-9.14a9.87,9.87,0,0,0-5-3.06A16.58,16.58,0,0,0,73.9,44H68.67V39.2a3.41,3.41,0,0,0-3.41-3.41H49.71a18.6,18.6,0,1,0-25.5,22.74V67.2a3.41,3.41,0,0,0,3.41,3.41h3.26a7.61,7.61,0,0,0,15,0H68.8a7.61,7.61,0,0,0,15-.07,3.42,3.42,0,0,0,2.72-3.34V56.94S86.52,56.9,86.52,56.88Zm-60.18-.26A16,16,0,0,1,16.12,43h1.65a1.3,1.3,0,1,0,0-2.59H16.13A16,16,0,0,1,30.78,25.73v1.65a1.3,1.3,0,1,0,2.59,0V25.73A16,16,0,0,1,47.53,37.51l.09.36.07.3q.06.28.12.57c0,.12,0,.23.06.35l.05.33q0,.23.06.45c0,.09,0,.18,0,.27s0,.16,0,.25H46.38a1.3,1.3,0,1,0,0,2.59H48A16,16,0,0,1,33.37,57.63V56a1.3,1.3,0,1,0-2.59,0v1.65l-.31,0-.25,0-.54-.07-.26,0-.52-.09-.28-.06-.48-.11-.3-.08L27.39,57l-.32-.1-.42-.14Zm12,17.7a5,5,0,0,1-5-5h0a5,5,0,1,1,5,5ZM66.07,68H45.88a7.61,7.61,0,0,0-15,0H27.63a.82.82,0,0,1-.82-.82V59.52l.61.17h0l.82.19.19,0,.69.12.16,0,.84.11h.13l.72.06h.22l.86,0a18.6,18.6,0,0,0,18.6-18.6h0c0-.3,0-.59,0-.89,0-.13,0-.25,0-.38s0-.33,0-.49,0-.32-.05-.49,0-.24,0-.36-.05-.36-.09-.54l0-.15H65.26a.82.82,0,0,1,.82.82ZM76.3,74.33a5,5,0,1,1,5-5A5,5,0,0,1,76.3,74.33Zm7.63-7.13a.81.81,0,0,1-.19.52h0A7.61,7.61,0,0,0,68.8,68h-.14V46.61H73.9a14,14,0,0,1,4,.56,7.5,7.5,0,0,1,3.76,2.19c2,2.45,2.27,7.23,2.29,7.61Z" id="1948718966"></path> 
+ <path d="M38.23,43.61l-4.86-2.69V32a1.3,1.3,0,1,0-2.59,0v9.68s0,0,0,.05a1.28,1.28,0,0,0,0,.14s0,.08,0,.12l0,.12,0,.12.06.11.07.1.08.1.09.09.09.08.11.08,0,0L37,45.88a1.3,1.3,0,0,0,1.26-2.27Z" id="1531042506"></path> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1584510590 dmRespCol large-8 medium-8 small-6" id="1584510590"> <h5 class="u_1549535283 dmNewParagraph" data-element-type="paragraph" id="1549535283" style="transition: none 0s ease 0s; display: block;" data-uialign="left"><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);">Collect</font></span><br/></h5></div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespCol large-3 medium-3 small-12 u_1957700998" id="1957700998"> <div class="dmRespRow u_1192870457" id="1192870457" mode="2"> <div class="dmRespColsWrapper" id="1501414171"> <div class="u_1108879732 dmRespCol large-4 medium-4 small-6" id="1108879732"> <div class="u_1136998115 graphicWidget" editablewidget="true" data-element-type="graphic" data-widget-type="graphic" id="1136998115" data-layout="graphic-style-1"> <a id="1746576333" class=""> <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 100 100" id="1560020666" class="svg u_1560020666" data-icon-name="transportation_airplane_flying_around_world"> <path d="M82.28,33.15a3.18,3.18,0,0,0-1.08-1.44c-.8-.56-2-.82-4.56.23A31.13,31.13,0,0,0,20.16,50q0,1.15.08,2.28l0,.07c-3.11,5.64-3.47,10.36-1,13.28a9.54,9.54,0,0,0,7.51,3.43,31.13,31.13,0,0,0,53.43-30.8C82.49,35.61,82.63,34.18,82.28,33.15Zm-2.57.69h-.07l.09,0,0,0,0,.07c0,.14-.09,1-2.2,3.17l-.22.22-.2.2-.12.12c-.86.85-2,1.88-3.49,3.12l0,0-.63.52,0,0-.7.57,0,0-.68.54-.13.1-.76.59a2.82,2.82,0,0,0-.82,1l0,0-.06.15-.06.16,0,.09c0,.08,0,.16-.06.24s0,.12,0,.18a2.81,2.81,0,0,0,0,.5l.15,3.1c0,.66.08,1.7.1,2.3v.46l.63,14.51L64.28,51.15a2.27,2.27,0,0,0-1.45-1.31l-.3-.07h-.09l-.21,0h-.1l-.27,0h0l-.29.07-.09,0-.21.08-.08,0-.27.15c-2.57,1.73-4.76,3.14-6.23,4.05l-.06,0-.36.22-.14.08-.23.14-1,.59A1.7,1.7,0,0,0,52,56.74c0,.24,0,.49,0,.74,0,.5,0,1,0,1.52-.05,1.26-.13,2.51-.2,3.54l-1.53-3.2-.78-1.64-.08-.15-.06-.09,0,0-.53-.71h0l-.06-.07,0-.05-.12-.12-4-3.57c1.41.3,3.23.71,4.92,1.16l.72.2a1.7,1.7,0,0,0,1.66-.43c.62-.62,3.36-3.1,7.16-6.28l0,0a2.26,2.26,0,0,0,.76-1.41V46s0-.1,0-.14,0-.07,0-.11h0A2.27,2.27,0,0,0,58.91,44L46.41,34l13.77,4.63.71.24,4.84,1.64a2.82,2.82,0,0,0,2.58-.4l.79-.58.15-.11.63-.45.14-.1q1.14-.81,2.12-1.45l0,0,.62-.41,0,0,.59-.38h0c.54-.34,1-.63,1.48-.89q1-.58,1.85-1l0,0C79,33.65,79.63,33.81,79.71,33.84ZM51.29,21.47a28.48,28.48,0,0,1,23,11.62c-1.23.68-2.67,1.57-4.37,2.73h0l-.91.63-.17.12-.79.56-.25.18-.89.65-.13.09a.23.23,0,0,1-.21,0l-1.47-.5-1.46-.5-8.92-3-8-2.68-.2-.05a1.7,1.7,0,0,0-1.37.31l-.72.54a2.24,2.24,0,0,0-.74,1l-.06.17,0,.07,0,.11v0s0,.09,0,.14a2.23,2.23,0,0,0,.51,1.73,2.26,2.26,0,0,0,.31.3L57,45.78c-2.12,1.78-3.93,3.36-5.22,4.51l-.22.2-.42.38-.42.38-.37.35c-1.82-.49-3.8-.94-5.31-1.26l-2.21-.45a1.68,1.68,0,0,0-.57,0h0l-.2,0-.08,0-.07,0a1.7,1.7,0,0,0-1,.91h0l0,0-.21.48a1.71,1.71,0,0,0-.13.51h0a1.7,1.7,0,0,0,0,.19s0,0,0,.07,0,.08,0,.12,0,.09,0,.14l0,.05a1.7,1.7,0,0,0,.51.85l4.78,4.25a54.22,54.22,0,0,1-13.8,7.8,17.14,17.14,0,0,1-4.14,1,28.52,28.52,0,0,1,23.32-45ZM21.17,64c-1.26-1.5-1.32-4-.23-7a30.94,30.94,0,0,0,3.78,9.26A6.74,6.74,0,0,1,21.17,64ZM51.29,78.53A28.48,28.48,0,0,1,29.8,68.76a21.64,21.64,0,0,0,3.18-.9A56.65,56.65,0,0,0,47.5,59.67l1.28,2.68,1.57,3.28a1.69,1.69,0,0,0,1.66,1h.09l.57-.07A1.73,1.73,0,0,0,54.15,65c.09-1,.39-4.58.44-7.71,1.1-.65,3.36-2.06,6.15-3.91l.12-.08L62,52.5l6.17,14.89a2.25,2.25,0,0,0,.14.28v0a2.24,2.24,0,0,0,.17.24l0,0,.19.2,0,0,.21.17,0,0,.24.13.05,0,.26.1h0l.29.06h0l.3,0h.21a2.24,2.24,0,0,0,1.15-.44l.73-.55.1-.08.06-.05,0,0a1.7,1.7,0,0,0,.45-.84v0a1.69,1.69,0,0,0,0-.18,1.72,1.72,0,0,0,0-.21l-.65-15V51c0-.56-.07-1.72-.11-2.46l-.15-3.09a.23.23,0,0,1,.09-.19l.89-.69c2.1-1.65,3.75-3.05,5-4.26A28.55,28.55,0,0,1,51.29,78.53Z" id="1369112241"></path> 
+</svg> 
+</a> 
+</div> 
+</div> 
+ <div class="u_1338458749 dmRespCol large-8 medium-8 small-6" id="1338458749"> <h5 class="u_1127729764 dmNewParagraph" data-element-type="paragraph" id="1127729764" style="transition: none 0s ease 0s; display: block;" data-uialign="left"><span style="font-weight: 300;"><font style="color: rgb(255, 255, 255);">Shipping info available</font></span><br/></h5></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1350642029 dmRespRow" id="1350642029"> <div class="dmRespColsWrapper" id="1900907953"> <div class="dmRespCol large-12 medium-12 small-12" id="1624308884"> <div class="u_1501966328 dmPhotoGallery newPhotoGallery dmPhotoGalleryResp" galleryoptionsparams="{thumbnailsPerRow: 3, rowsToShow: 3, imageScaleMethod: true}" data-desktop-layout="classic-rounded" data-desktop-columns="4" data-element-type="dPhotoGalleryId" data-desktop-text-layout="over" id="1501966328" data-rows-to-show="100" data-placeholder="false" data-auto-adjust-columns="true"> <ul class="dmPhotoGalleryHolder clearfix gallery shadowEffectToChildren gallery4inArow" id="1087946412" dont_set_id="true"> <li index="0" class="photoGalleryThumbs" id="1089205455"> <div class="image-container" id="1838139435"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot%2B2020-05-14%2Bat%2B22.43.36.png" id="1641886866" class="u_1641886866"><img data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot%2B2020-05-14%2Bat%2B22.43.36-1920w.png" irh="1" irw="2" alt="" id="1442935003" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1631323815" id="1631323815"> <span class="caption-inner" id="1203785949"> <h3 class="caption-title u_1370541146" id="1370541146"></h3> 
+ <div class="caption-text u_1201572630" id="1201572630"><br/></div> 
+ <a class="caption-button dmWidget   clearfix u_1656306923" href="" id="1656306923"> <span class="iconBg" id="1016609849"> <span class="icon hasFontIcon icon-star" id="1755953331"></span> 
+</span> 
+ <span class="text" id="1130493741">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="1" class="photoGalleryThumbs" id="1148905726"> <div class="image-container" id="1717706385"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot%2B2020-05-14%2Bat%2B22.38.32.png" id="1332206638" class="u_1332206638"><img data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot%2B2020-05-14%2Bat%2B22.38.32-1920w.png" irh="2" irw="3" alt="" id="1182022758" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1779801573" id="1779801573"> <span class="caption-inner" id="1163787178"> <h3 class="caption-title u_1978716590" id="1978716590"></h3> 
+ <div class="caption-text u_1987045172" id="1987045172">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1260611172" href="" id="1260611172"> <span class="iconBg" id="1588030542"> <span class="icon hasFontIcon icon-star" id="1636535967"></span> 
+</span> 
+ <span class="text" id="1022949472">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="2" class="photoGalleryThumbs" id="1628276081"> <div class="image-container" id="1649782669"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+15.33.42.png" id="1634885427" class="u_1634885427"><img data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+15.33.42-1920w.png" irh="3" irw="4" alt="" id="1649832195" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1927650714" id="1927650714"> <span class="caption-inner" id="1578671024"> <h3 class="caption-title u_1083600881" id="1083600881">Fashion Magazine</h3> 
+ <div class="caption-text u_1884368487" id="1884368487">Photo By: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1391884647" href="" id="1391884647"> <span class="iconBg" id="1537098374"> <span class="icon hasFontIcon icon-star" id="1947730054"></span> 
+</span> 
+ <span class="text" id="1070500683">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li index="3" class="photoGalleryThumbs" id="1484138322"> <div class="image-container" id="1487847580"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+18.58.52.png" id="1845614612" class="u_1845614612"><img data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+18.58.52-1920w.png" irh="4" irw="5" alt="" id="1607818799" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container  u_1318930546" id="1318930546"> <span class="caption-inner" id="1210598688"> <h3 class="caption-title u_1268565709" id="1268565709">Blurred Lines</h3> 
+ <div class="caption-text u_1352446556" id="1352446556">Photo by: John Doe</div> 
+ <a class="caption-button dmWidget   clearfix u_1254872450" href="" id="1254872450"> <span class="iconBg" id="1535341715"> <span class="icon hasFontIcon icon-star" id="1154629780"></span> 
+</span> 
+ <span class="text" id="1578674515">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1286756969"> <div class="image-container" id="1170240631"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+15.34.21.png" id="1897858379" class="u_1897858379"><img irh="" irw="" alt="" data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+15.34.21-1920w.png" id="1012123886" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1827116310"> <span class="caption-inner" id="1130591343"> <h3 class="caption-title" id="1302941312"></h3> 
+ <div class="caption-text" id="1884499489"></div> 
+ <a class="caption-button dmWidget clearfix" id="1231323854"> <span class="iconBg" id="1311142035"> <span class="icon hasFontIcon icon-star" id="1724884256"></span> 
+</span> 
+ <span class="text" id="1297223307">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1642541748"> <div class="image-container" id="1997995657"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+15.30.41.png" id="1250217839" class="u_1250217839"><img irh="" irw="" alt="" data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+15.30.41-1920w.png" id="1464647411" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1005434867"> <span class="caption-inner" id="1512869752"> <h3 class="caption-title" id="1691466782"></h3> 
+ <div class="caption-text" id="1128244518"></div> 
+ <a class="caption-button dmWidget clearfix" id="1114239022"> <span class="iconBg" id="1855383579"> <span class="icon hasFontIcon icon-star" id="1741420444"></span> 
+</span> 
+ <span class="text" id="1464900180">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1002117406"> <div class="image-container" id="1194615001"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-14+at+23.11.36.png" id="1208126073" class="u_1208126073"><img irh="" irw="" alt="" data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-14+at+23.11.36-1920w.png" id="1705761885" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1606756190"> <span class="caption-inner" id="1702290200"> <h3 class="caption-title" id="1997234731"></h3> 
+ <div class="caption-text" id="1829083823"></div> 
+ <a class="caption-button dmWidget clearfix" id="1465406050"> <span class="iconBg" id="1130451547"> <span class="icon hasFontIcon icon-star" id="1810880154"></span> 
+</span> 
+ <span class="text" id="1295781149">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+ <li class="photoGalleryThumbs" id="1518337916"> <div class="image-container" id="1438038149"> <a data-dm-multisize-attr="href" data-image-url="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-20+at+19.00.07.png" id="1981110730" class="u_1981110730"><img irh="" irw="" alt="" data-src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-20+at+19.00.07-1920w.png" id="1903290047" class="" onerror="handleImageLoadError(this)"/></a> 
+</div> 
+ <div class="caption-container" style="display:none" id="1759452258"> <span class="caption-inner" id="1043431454"> <h3 class="caption-title" id="1321395023"></h3> 
+ <div class="caption-text" id="1297954798"></div> 
+ <a class="caption-button dmWidget clearfix" id="1162532691"> <span class="iconBg" id="1325042192"> <span class="icon hasFontIcon icon-star" id="1220196236"></span> 
+</span> 
+ <span class="text" id="1679440641">Button</span> 
+</a> 
+</span> 
+</div> 
+</li> 
+</ul> 
+ <div class="photoGalleryViewAll link" isall="true" data-viewall="View more" data-viewless="View less" style="display:none;" id="1129800494"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="dmRespRow u_1632155419" style="text-align: center;" id="1632155419"> <div class="dmRespColsWrapper" id="1253858808"> <div class="u_1063824722 dmRespCol small-12 large-3 medium-3" id="1063824722"> <h5 class="dmNewParagraph" data-element-type="paragraph" id="1892839119" style="transition: opacity 1s ease-in-out 0s;" data-uialign="left"><font style="font-weight: normal; color: rgb(176, 176, 176);">Montana Boeredienste</font></h5> <div class="u_1810098025 imageWidget align-center" editablewidget="true" data-widget-type="image" id="1810098025" data-element-type="image"><img src="https://lirp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/opt/Screenshot+2020-05-09+at+21.40.18-140w.png" id="1506432110" class="" data-dm-image-path="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/Screenshot+2020-05-09+at+21.40.18.png" onerror="handleImageLoadError(this)"/></div> 
+</div> 
+ <div class="dmRespCol small-12 large-3 medium-3" id="1296613880"> <h5 class="dmNewParagraph" data-element-type="paragraph" id="1032662425" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"><font style="font-weight: normal; color: rgb(176, 176, 176);">LOCATE US</font></h5> <h6 class="dmNewParagraph u_1211575297" data-element-type="paragraph" id="1211575297" data-uialign="center"> <div><font color="#ffffff">Montana</font></div> 
+ <div><font color="#ffffff">Cookhouse, Eastern Cape, South Africa 5820</font></div> 
+</h6> <h6 class="dmNewParagraph u_1374207927" data-element-type="paragraph" id="1374207927" style="transition: none 0s ease 0s; display: block;" data-uialign="center"> <div><span style="color: rgb(255, 255, 255);">Office 066 226 7406</span></div> 
+ <div><span style="color: rgb(255, 255, 255);">082 567 7920</span><br/></div> 
+<div><font color="#ffffff"><span style="font-weight: 400;">riaankferreira@gmail.com</span></font></div></h6></div> 
+ <div class="dmRespCol small-12 large-3 medium-3" id="1810721555"> <h5 class="dmNewParagraph" data-element-type="paragraph" id="1148930754" style="transition: opacity 1s ease-in-out 0s;" data-uialign="center"><font style="font-weight: normal; color: rgb(176, 176, 176);">INFORMATION</font></h5> <nav class="u_1090877790 unifiednav_vertical effect-text-fill main-navigation unifiednav dmLinksMenu" role="navigation" layout-main="vertical_nav_layout_4" layout-sub="" data-show-vertical-sub-items="HOVER" id="1090877790" dmle_extension="onelinksmenu" data-element-type="onelinksmenu" data-logo-src="https://irp-cdn.multiscreensite.com/2eec7337/dms3rep/multi/desktop/glasses_logo_cercleArtboard+12.svg" alt="" data-nav-structure="VERTICAL" wr="true" icon="true" surround="true" adwords="" data-from-nav="true" data-sub-nav="true" data-items="-1" custom-li-class="" custom-ul-class="" custom-a-class="" custom-inner-ul-class="" custom-nested-inner-ul-class="" custom-span-class="" navigation-id="unifiedNav" data-links-level="0" is-build-your-own="true" data-build-your-own="W3sidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDBfaXRlbSIsImxhYmVsIjoiXG4gICAgICAgICAgICAgICAgICBcbiAgICAgICAgIEhPTUVcbiAgICAgICAgXG4gICAgICAgICAgICAgICAgIiwiaHJlZiI6Ii8iLCJ2YWx1ZSI6ImhvbWUiLCJ0YXJnZXQiOm51bGwsInBvcHVwX3RhcmdldCI6bnVsbCwiaXRlbXMiOltdfSx7InR5cGUiOiJwYWdlIiwibmF2SWQiOiJkbV9uYXZHcm91cDAxMDEwMTU2MzYwX2l0ZW0iLCJsYWJlbCI6IlxuICAgICAgICAgICAgICAgICAgXG4gICAgICAgICBBQk9VVFxuICAgICAgICBcbiAgICAgICAgICAgICAgICAiLCJocmVmIjoiL2Fib3V0IiwidmFsdWUiOiJhYm91dCIsInRhcmdldCI6bnVsbCwicG9wdXBfdGFyZ2V0IjpudWxsLCJpdGVtcyI6W119LHsidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxNTc5MTA0X2l0ZW0iLCJsYWJlbCI6IlxuICAgICAgICAgICAgICAgICAgXG4gICAgICAgICBHQUxMRVJZXG4gICAgICAgIFxuICAgICAgICAgICAgICAgICIsImhyZWYiOiIvc3RvcmllcyIsInZhbHVlIjoidGhlLWJyYW5kIiwidGFyZ2V0IjpudWxsLCJwb3B1cF90YXJnZXQiOm51bGwsIml0ZW1zIjpbXX0seyJ0eXBlIjoicGFnZSIsIm5hdklkIjoiZG1fbmF2R3JvdXAwMTAxMDE2NjIyNjRfaXRlbSIsImxhYmVsIjoiXG4gICAgICAgICAgICAgICAgICBcbiAgICAgICAgIENvbnRhY3QgVXNcbiAgICAgICAgXG4gICAgICAgICAgICAgICAgIiwiaHJlZiI6Ii9zdG9yZXMiLCJ2YWx1ZSI6InN0b3JlcyIsInRhcmdldCI6bnVsbCwicG9wdXBfdGFyZ2V0IjpudWxsLCJpdGVtcyI6W119LHsidHlwZSI6InBhZ2UiLCJuYXZJZCI6ImRtX25hdkdyb3VwMDEwMTAxNTg1NzgzX2l0ZW0iLCJsYWJlbCI6IkhPTUUiLCJocmVmIjoiLyIsInZhbHVlIjoiZmFxIiwidGFyZ2V0IjpudWxsLCJwb3B1cF90YXJnZXQiOm51bGwsIml0ZW1zIjpbXX1d"> <ul class="unifiednav__container  " data-auto&#x3d;navigation-pages=""> <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         HOME
+        
+                " data-auto&#x3d;page-text-style="">HOME<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="about.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         ABOUT
+        
+                " data-auto&#x3d;page-text-style="">ABOUT<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stories.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         GALLERY
+        
+                " data-auto&#x3d;page-text-style="">GALLERY<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="stores.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="
+                  
+         Contact Us
+        
+                " data-auto&#x3d;page-text-style="">Contact Us<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+ <li class=" unifiednav__item-wrap " data-auto&#x3d;more-pages=""> <a href="index.html" class="unifiednav__item    " target="" data-target-page-alias=""> <span class="nav-item-text " data-link-text="HOME" data-auto&#x3d;page-text-style="">HOME<span class="icon icon-angle-down"></span> 
+</span> 
+</a> 
+</li> 
+</ul> 
+</nav> 
+</div> 
+ <div class="dmRespCol large-3 medium-3 small-12" id="1665038804"> <h5 class="dmNewParagraph" data-element-type="paragraph" id="1613299010" style="transition: opacity 1s ease-in-out 0s;" data-uialign="right"><font style="font-weight: normal; color: rgb(176, 176, 176);">CONNECT</font></h5> <div class="u_1701717161 align-center text-align-center dmSocialHub" id="1701717161" dmle_extension="social_hub" data-element-type="social_hub" wr="true" networks="" icon="true" surround="true" adwords=""> <div class="socialHubWrapper"> <div class="socialHubInnerDiv "> <a href="https://facebook.com/" target="_blank" dmle_dont_remove="target" dm_dont_rewrite_url="true"> <span class="dmSocialFacebook dm-social-icons-facebook oneIcon socialHubIcon style5" data-hover-effect=""></span> 
+</a> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div class="u_1806929862 dmRespRow" id="1806929862"> <div class="dmRespColsWrapper" id="1189144305"> <div class="dmRespCol large-12 medium-12 small-12" id="1029849168"> <div class="u_1939434174 widget-1f5975 dmCustomWidget" data-lazy-load="" id="1939434174" dmle_extension="custom_extension" data-element-type="custom_extension" icon="false" surround="false" data-widget-id="1f5975986930429f819d4cd2154b5c4a" data-widget-version="22" data-widget-config="eyJjb3B5cmlnaHRUZXh0IjoiPHAgY2xhc3M9XCJydGVCbG9ja1wiPjxzcGFuIHN0eWxlPVwiY29sb3I6cmdiYSgyNTUsIDI1NSwgMjU1LCAxKVwiPjxlbT48YSB2YWx1ZT1cImh0dHA6Ly93d3cucHJpbnR3YXJlY29tcHV0ZXJzLmNvLnphXCIgbGFiZWw9XCJcIiB0eXBlPVwidXJsXCIgaHJlZj1cImh0dHA6Ly93d3cucHJpbnR3YXJlY29tcHV0ZXJzLmNvLnphXCIgdGFyZ2V0PVwiX2JsYW5rXCIgZGF0YS1ydW50aW1lLXVybD1cImh0dHA6Ly93d3cucHJpbnR3YXJlY29tcHV0ZXJzLmNvLnphXCI+QWxsIFJpZ2h0cyBSZXNlcnZlZCB8RGVzaWduZWQgYnkgUHJpbnR3YXJlIENvbXB1dGVycyAwODIgNDE5IDY2MDYgJm5ic3A7cHJpbnR3YXJlQGhvdG1haWwuY28uemE8L2E+PC9lbT48L3NwYW4+PC9wPiJ9"> <div class="copyright"> <div>&copy; 2020&nbsp;</div> 
+ <div> <p class="rteBlock"> <span style="color:rgba(255, 255, 255, 1)"> <em> <a value="http://www.printwarecomputers.co.za" label="" type="url" href="http://www.printwarecomputers.co.za" target="_blank" data-runtime-url="http://www.printwarecomputers.co.za">All Rights Reserved |Designed by Printware Computers 082 419 6606 &nbsp;printware@hotmail.co.za</a> 
+</em> 
+</span> 
+</p> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+ <div id="1236746004" dmle_extension="powered_by" data-element-type="powered_by" icon="true" surround="false" data-dmtmpl="true"></div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+</div> 
+
+            </div>
+        </div>
+<!--  Add full CSS and Javascript before the close tag of the body if needed -->
+<script type="text/javascript" id="d_track_campaign">
+(function() {
+ 	var campaign = (/utm_campaign=([^&]*)/).exec(window.location.search);
+
+ 	if (campaign && campaign != null && campaign.length > 1) {
+ 		campaign = campaign[1];
+ 		document.cookie = "_dm_rt_campaign=" + campaign + ";expires=" + new Date().getTime() + 24*60*60*1000 + ";domain=" + window.location.hostname + ";path=/";
+ 	}
+}());
+</script>
+<script type="text/javascript" >
+  var _dm_gaq = {};
+  var _gaq = _gaq || [];
+  var _dm_insite = [];
+</script>
+
+  <script type="text/javascript" id="d_track_ga">
+
+  _dm_gaq.siteAlias = '2eec7337';
+  _dm_gaq.systemAggregatedGaqID = 'UA-7265702-9';
+  _dm_gaq.externalGaqID = '';
+  
+  _gaq.push(['_gat._forceSSL']);
+  
+  _gaq.push (['_gat._anonymizeIp']);
+  
+
+  if(_dm_gaq.systemAggregatedGaqID && (_dm_gaq.systemAggregatedGaqID != _dm_gaq.systemGaqID)){
+     // track aggregated account
+    _gaq.push(['b._setAccount', _dm_gaq.systemAggregatedGaqID]);
+    _gaq.push(['b._setAllowLinker', true]);
+    _gaq.push(['b._setVar', _dm_gaq.siteAlias]);
+    _gaq.push(['b._setCustomVar', 1, 'product', 'DM_DIRECT',  2 ]);
+    _gaq.push(['b._setCustomVar', 2, 'plan', 'BUSINESS_PLUS',  2 ]);
+    _gaq.push(['b._setCustomVar', 3, 'dfooter', 'false',  2 ]);
+    _gaq.push(['b._setCustomVar', 4, 'sitetype', '1',  2 ]);
+    _gaq.push(['b._setCustomVar', 5, 'pwaEnabled', 'true',  2 ]);
+
+      _gaq.push(['b._trackPageview' ]);
+    pushInsiteImpressions('b._trackEvent');
+   }
+
+   if(_dm_gaq.externalGaqID && _dm_gaq.externalGaqID!= '') {
+     _gaq.push(['c._setAccount', _dm_gaq.externalGaqID]);
+     _gaq.push(['c._setVar', _dm_gaq.siteAlias]);
+     _gaq.push(['c._setDomainName', 'montanaboeredienste.co.za']);
+     _gaq.push(['c._setAllowLinker', true]);
+     _gaq.push(['c._trackPageview' ]);
+
+     pushInsiteImpressions('c._trackEvent');
+   }
+
+   function pushInsiteImpressions(category) {
+   	$.each(_dm_insite, function(idx, rule) {
+   		_gaq.push([ category, 'insite_impression' , _dm_gaq.siteAlias, rule.ruleType + '__' + rule.ruleId, ]);
+   	});
+   }
+(function() {
+	var ga = document.createElement('script');
+	ga.type = 'text/javascript';
+	ga.async = true;
+  
+	ga.src = 'https://ssl.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0];
+	s.parentNode.insertBefore(ga, s);
+})();
+
+  </script>
+<script type="text/javascript" id="d_track_sp">
+;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalSnowplowNamespace=p.GlobalSnowplowNamespace||[];
+p.GlobalSnowplowNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+};p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script","//d32hwlnfiv2gyn.cloudfront.net/sp-2.0.0-dm-0.1.min.js","snowplow"));
+window.dmsnowplow  = window.snowplow;
+
+dmsnowplow('newTracker', 'cf', 'd32hwlnfiv2gyn.cloudfront.net', { // Initialise a tracker
+  appId: '2eec7337'
+});
+
+dmsnowplow('trackPageView')
+$.each(_dm_insite, function(idx, rule) {
+	//('trackStructEvent', 'category','action','label','property','value');
+			// Specifically in popup only the client knows if it is shown or not so we don't always want to track its impression here
+	        // the tracking is in popup.js
+			if (rule.actionName !== "popup") {
+                dmsnowplow('trackStructEvent', 'insite', 'impression', rule.ruleType, rule.ruleId);
+            }
+ 			$(document).ready(function(){
+ 				$.DM.events.trigger('event-ruleTriggered', {value: rule})}
+ 			);
+ 		});
+</script>
+   <div style="display:none;" id="P6iryBW0Wu"></div>
+
+<!-- photoswipe markup -->
+
+
+
+
+
+
+
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                <!--  Controls are self-explanatory. Order can be changed. -->
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<div id="fb-root"
+        data-locale="en"></div>
+<!-- Alias: 2eec7337 -->
+<div class="dmPopupMask" id="dmPopupMask"></div>
+<div id="dmPopup" class="dmPopup">
+	<div class="dmPopupCloseWrapper"> <div class="dmPopupClose dm-common-icons-close oneIcon" onclick="dmHidePopup(event);"></div> </div>
+ 	<div class="dmPopupTitle"> <span></span> Share by:</div> 
+	<div class="data"></div>
+</div><script id="d_track_personalization">
+// Collects client data and updates cookies used by smart sites
+var expireDays = 365,visitLength = 30 * 60000;
+$.setCookie("dm_timezone_offset", (new Date()).getTimezoneOffset(), expireDays);
+function setSmartSiteCookies() {
+	setSmartSiteCookiesInternal("dm_this_page_view","dm_last_page_view","dm_total_visits","dm_last_visit");
+}
+$.DM.events.on("afterAjax", setSmartSiteCookies);
+setSmartSiteCookies();
+</script>
+<script type="text/javascript">
+    
+    Parameters.NavigationAreaParams.MoreButtonText = 'MORE';
+    
+    Parameters.NavigationAreaParams.LessButtonText = 'LESS';
+    Parameters.HomeLinkText = 'Home';
+    </script>
+
+<script>
+
+    jQuery(window).load(function () {
+        try {
+            jQuery.DM.updateIOSHeight();
+        } catch (e) {
+        }
+        ;
+    });
+</script>
+<script>
+    dmAPI.loadScript(window.rtCommonProps['common.resources.cdn.host'] + '/libs/lozad/1.15.0/lozad.min.js', function () {
+        dmAPI.runOnReady('lozadInit', function () {
+            window.document.querySelectorAll('img.lazy').forEach(function (img) {
+                img.addEventListener('load', function (event) {
+                    var img = event.target;
+                    img.style.filter = 'blur(0)';
+                    setTimeout(function () {
+                        $(img).closest('.imageWidget').addClass('lazyLoaded');
+                    }, 250)
+                });
+            });
+            lozad('.lazy', {
+                threshold: 0.1,
+                loaded: function (element) {
+                    if (element.getAttribute('data-background-image')) {
+                        element.style.setProperty(
+                            'background-image',
+                            "url('" + element.getAttribute('data-background-image') + "')",
+                            "important"
+                        );
+                    }
+                }
+            }).observe();
+        });
+    });
+</script>
+<!--  End Script tags -->
+
+<!--  Site Wide Html Markup -->
+            <!--  Site Wide Html Markup -->
+</body>
+</html>
